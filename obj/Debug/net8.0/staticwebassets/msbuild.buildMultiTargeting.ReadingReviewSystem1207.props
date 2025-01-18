@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ReadingReviewSystem1207.props" />
+</Project>
