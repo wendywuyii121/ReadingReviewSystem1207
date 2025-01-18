@@ -119,6 +119,7 @@ C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\ReadingRevie
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\ReadingReviewSystem1207.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\ReadingReviewSystem1207.RazorAssemblyInfo.cache
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\ReadingReviewSystem1207.RazorAssemblyInfo.cs
+C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\ReadingReviewSystem1207.sourcelink.json
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\scopedcss\bundle\ReadingReviewSystem1207.styles.css
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\scopedcss\projectbundle\ReadingReviewSystem1207.bundle.scp.css
@@ -131,18 +132,10 @@ C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\staticwebass
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ReadingReviewSystem1207.props
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ReadingReviewSystem1207.props
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\ReadingR.32B23B98.Up2Date
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\ReadingReviewSystem1207.dll
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\refint\ReadingReviewSystem1207.dll
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\ReadingReviewSystem1207.pdb
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\ReadingReviewSystem1207.genruntimeconfig.cache
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\ref\ReadingReviewSystem1207.dll
-C:\Users\USER\source\repos\ReadingReviewSystem1207\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\USER\source\repos\ReadingReviewSystem1207\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\USER\source\repos\ReadingReviewSystem1207\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\USER\source\repos\ReadingReviewSystem1207\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\USER\source\repos\ReadingReviewSystem1207\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
-C:\Users\USER\source\repos\ReadingReviewSystem1207\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\USER\source\repos\ReadingReviewSystem1207\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
-C:\Users\USER\source\repos\ReadingReviewSystem1207\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
-C:\Users\USER\source\repos\ReadingReviewSystem1207\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll

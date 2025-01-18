@@ -35,9 +35,9 @@ app.UseRouting();
 // 啟用授權
 app.UseAuthorization();
 
-// 設定默認路由，控制器為 Home，動作為 Index
+// 設定默認路由，控制器為 Books，動作為 Index
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Books}/{action=Index}/{id?}");
 
 app.Run();

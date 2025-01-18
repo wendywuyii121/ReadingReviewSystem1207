@@ -13,9 +13,10 @@ namespace ReadingReviewSystem1207.Controllers
             _logger = logger;
         }
 
+        // 修改 Index 方法，重定向到 Books/Index
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("Index", "Books");
         }
 
         public IActionResult Privacy()

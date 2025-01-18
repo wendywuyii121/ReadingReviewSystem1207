@@ -1,0 +1,22 @@
+﻿@model IEnumerable<ReadingReviewSystem1207.Models.Book>
+
+<h2>書籍列表</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>書名</th>
+            <th>封面</th>
+            <th>心得摘要</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td><img src="@book.CoverImageUrl" alt="Book Cover" width="50" height="50"></td>
+                <td>@book.Review.Substring(0, 100)...</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\readingreviewsystem1207.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:readingreviewsystem1207.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\models\\readingreviewsystemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:models\\readingreviewsystemdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,72 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReadingReviewSystem1207.csproj",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\ReadingReviewSystem1207.csproj",
-              "RelativeDocumentMoniker": "ReadingReviewSystem1207.csproj",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\ReadingReviewSystem1207.csproj",
-              "RelativeToolTip": "ReadingReviewSystem1207.csproj",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-16T06:07:44.791Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T05:54:15.253Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReadingReviewSystemDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Models\\ReadingReviewSystemDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\ReadingReviewSystemDbContext.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Models\\ReadingReviewSystemDbContext.cs",
-              "RelativeToolTip": "Models\\ReadingReviewSystemDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T05:53:53.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Book.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "Models\\Book.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Models\\Book.cs",
-              "RelativeToolTip": "Models\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-16T05:53:17.674Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-01-16T05:51:41.471Z"
-            },
-            {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
