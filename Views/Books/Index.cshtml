@@ -1,6 +1,10 @@
 ﻿@model IEnumerable<ReadingReviewSystem1207.Models.Book>
 
 <h2>書籍列表</h2>
+
+<!-- 新增心得按鈕 -->
+<a asp-controller="Books" asp-action="Create" class="btn btn-primary" style="margin-bottom: 15px;">新增心得</a>
+
 <table class="table">
     <thead>
         <tr>
@@ -14,8 +18,26 @@
         {
             <tr>
                 <td>@book.Title</td>
-                <td><img src="@book.CoverImageUrl" alt="Book Cover" width="50" height="50"></td>
-                <td>@book.Review.Substring(0, 100)...</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(book.CoverImageUrl))
+                    {
+                        <img src="@book.CoverImageUrl" alt="Book Cover" width="50" height="50" />
+                    }
+                    else
+                    {
+                        <em>無封面圖片</em>
+                    }
+                </td>
+                <td>
+                    @if (!string.IsNullOrEmpty(book.Review))
+                    {
+                        @book.Review.Substring(0, Math.Min(book.Review.Length, 100))
+                    }
+                    else
+                    {
+                        <em>未提供心得內容</em>
+                    }
+                </td>
             </tr>
         }
     </tbody>

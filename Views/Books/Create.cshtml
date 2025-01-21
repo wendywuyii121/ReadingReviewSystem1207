@@ -1,0 +1,19 @@
+﻿@model ReadingReviewSystem1207.Models.Book
+
+<h2>新增書籍</h2>
+
+<form asp-action="Create" method="post" enctype="multipart/form-data">
+    <div>
+        <label for="Title">書名：</label>
+        <input type="text" asp-for="Title" required />
+    </div>
+    <div>
+        <label for="Review">心得內容：</label>
+        <textarea asp-for="Review" required></textarea>
+    </div>
+    <div>
+        <label for="CoverImage">封面圖片：</label>
+        <input type="file" name="coverImage" />
+    </div>
+    <button type="submit">提交</button>
+</form>
