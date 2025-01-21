@@ -1,44 +1,51 @@
-﻿@model IEnumerable<ReadingReviewSystem1207.Models.Book>
+﻿<div class="container text-center">
+    <h2>書籍列表</h2>
 
-<h2>書籍列表</h2>
+    <!-- 新增心得按鈕，右側對齊 -->
+    <a asp-controller="Books" asp-action="Create" class="btn btn-primary float-end" style="margin-bottom: 15px;">新增心得</a>
 
-<!-- 新增心得按鈕 -->
-<a asp-controller="Books" asp-action="Create" class="btn btn-primary" style="margin-bottom: 15px;">新增心得</a>
-
-<table class="table">
-    <thead>
-        <tr>
-            <th>書名</th>
-            <th>封面</th>
-            <th>心得摘要</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var book in Model)
-        {
+    <table class="table table-bordered">
+        <thead>
             <tr>
-                <td>@book.Title</td>
-                <td>
-                    @if (!string.IsNullOrEmpty(book.CoverImageUrl))
-                    {
-                        <img src="@book.CoverImageUrl" alt="Book Cover" width="50" height="50" />
-                    }
-                    else
-                    {
-                        <em>無封面圖片</em>
-                    }
-                </td>
-                <td>
-                    @if (!string.IsNullOrEmpty(book.Review))
-                    {
-                        @book.Review.Substring(0, Math.Min(book.Review.Length, 100))
-                    }
-                    else
-                    {
-                        <em>未提供心得內容</em>
-                    }
-                </td>
+                <th class="text-center">書名</th>
+                <th class="text-center">封面</th>
+                <th class="text-center">心得摘要</th>
+                <th class="text-center">操作</th>
             </tr>
+        </thead>
+        <tbody>
+            @foreach (var book in Model)
+            {
+                <tr>
+                    <td>@book.Title</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(book.CoverImageUrl))
+                        {
+                            <img src="@book.CoverImageUrl" alt="Book Cover" width="50" height="50" />
+                        }
+                        else
+                        {
+                            <em>無封面圖片</em>
+                        }
+                    </td>
+                    <td>
+                        @book.Review.Substring(0, Math.Min(50, book.Review.Length))...
+                        <a asp-controller="Books" asp-action="Details" asp-route-id="@book.Id" class="btn btn-link">查看詳情</a>
+                    </td>
+                    <td>
+                        <button class="btn btn-danger btn-sm" onclick="confirmDelete('@book.Id')">刪除</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<!-- 添加刪除確認彈窗的 JavaScript -->
+<script>
+    function confirmDelete(id) {
+        if (confirm("確定要刪除這條心得嗎？")) {
+            window.location.href = `/Books/Delete/${id}`;
         }
-    </tbody>
-</table>
+    }
+</script>

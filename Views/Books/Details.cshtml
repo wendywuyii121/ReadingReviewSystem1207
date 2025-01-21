@@ -1,0 +1,27 @@
+﻿<div class="container">
+    <h2 class="text-center">書籍詳情</h2>
+
+    <div class="row">
+        <div class="col-md-3">
+            <!-- 封面圖片靠左上 -->
+            @if (!string.IsNullOrEmpty(Model.CoverImageUrl))
+            {
+                <img src="@Model.CoverImageUrl" alt="Book Cover" class="img-fluid" />
+            }
+            else
+            {
+                <em>無封面圖片</em>
+            }
+        </div>
+        <div class="col-md-9">
+            <h4>書名：</h4>
+            <p>@Model.Title</p>
+
+            <h4>心得內容：</h4>
+            <p>@Model.Review</p>
+
+            <!-- 返回主頁按鈕 -->
+            <a asp-controller="Books" asp-action="Index" class="btn btn-secondary">返回主頁</a>
+        </div>
+    </div>
+</div>

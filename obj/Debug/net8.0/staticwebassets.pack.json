@@ -13,6 +13,34 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\25f917e8-d55b-4693-9372-b6041f6806bf_螢幕擷取畫面 2025-01-21 213616.png",
+      "PackagePath": "staticwebassets\\images\\25f917e8-d55b-4693-9372-b6041f6806bf_螢幕擷取畫面 2025-01-21 213616.png"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\42946f0b-85b5-471d-ba1a-74198780beb7_6.jpg",
+      "PackagePath": "staticwebassets\\images\\42946f0b-85b5-471d-ba1a-74198780beb7_6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\5763ee22-8121-4c84-8f36-f0f446ee7342_5.jpg",
+      "PackagePath": "staticwebassets\\images\\5763ee22-8121-4c84-8f36-f0f446ee7342_5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\a2c9a6f1-bcd5-4ffd-b071-72730bb1301f_螢幕擷取畫面 2025-01-22 013859.png",
+      "PackagePath": "staticwebassets\\images\\a2c9a6f1-bcd5-4ffd-b071-72730bb1301f_螢幕擷取畫面 2025-01-22 013859.png"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\b17b09de-f442-44b2-9807-5843e8737345_7.jpg",
+      "PackagePath": "staticwebassets\\images\\b17b09de-f442-44b2-9807-5843e8737345_7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\default-cover.jpg",
+      "PackagePath": "staticwebassets\\images\\default-cover.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\test_file.txt",
+      "PackagePath": "staticwebassets\\images\\test_file.txt"
+    },
+    {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
