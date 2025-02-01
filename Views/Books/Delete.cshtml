@@ -1,0 +1,24 @@
+﻿@model ReadingReviewSystem1207.Models.Book
+
+@{
+    ViewData["Title"] = "刪除書籍";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="alert alert-warning">
+    <p>確定要刪除這本書嗎？</p>
+    <h4>@Model.Title</h4>
+    @if (!string.IsNullOrEmpty(Model.CoverImageUrl))
+    {
+        <img src="@Model.CoverImageUrl" alt="Book Cover" width="100" height="100" />
+    }
+</div>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <input type="submit" value="刪除" class="btn btn-danger" />
+        <a asp-action="Index" class="btn btn-secondary">取消</a>
+    </div>
+</form>

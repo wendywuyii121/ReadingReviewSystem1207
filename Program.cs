@@ -1,41 +1,23 @@
-using Microsoft.AspNetCore.DataProtection;
+ï»¿using Microsoft.AspNetCore.DataProtection;
 using Microsoft.EntityFrameworkCore;
 using ReadingReviewSystem1207.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// µù¥U¸ê®Æ®wªA°È¡A¨Ï¥Î SQL Server ¨Ã±q appsettings.json ¤¤Åª¨ú³s½u¦r¦ê
+// **è¨»å†Šè³‡æ–™åº«æœå‹™**
 builder.Services.AddDbContext<ReadingReviewSystemDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// ³]©w¸ê®Æ«OÅ@±KÆ_ªºÀx¦s¦ì¸m
-builder.Services.AddDataProtection()
-    .PersistKeysToFileSystem(new DirectoryInfo(@"C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys"));
-
-// ²K¥[ MVC ¤ä´©
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-// HTTP ½Ğ¨DºŞ¹D³]¸m
-if (!app.Environment.IsDevelopment())
-{
-    // ¤£¬O¶}µoÀô¹Ò®É¡A¨Ï¥Î¦Û©w¸q¿ù»~­¶­±
-    app.UseExceptionHandler("/Home/Error");
-    // ±Ò¥Î HSTS¡]HTTP ÄY®æ¶Ç¿é¦w¥ş¡^
-    app.UseHsts();
-}
-
-// ±j¨î HTTPS¡A±N HTTP ½Ğ¨D­«©w¦V¦Ü HTTPS
 app.UseHttpsRedirection();
-// ¤¹³\ÀRºAÀÉ®×¡]¦p¹Ï¤ù¡BCSS¡BJS µ¥¡^
 app.UseStaticFiles();
-// ±Ò¥Î¸ô¥Ñ
 app.UseRouting();
-// ±Ò¥Î±ÂÅv
 app.UseAuthorization();
 
-// ³]©wÀq»{¸ô¥Ñ¡A±±¨î¾¹¬° Books¡A°Ê§@¬° Index
+// **ç¢ºä¿è·¯ç”±æ­£ç¢º**
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Books}/{action=Index}/{id?}");

@@ -132,10 +132,10 @@ C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\staticwebass
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ReadingReviewSystem1207.props
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ReadingReviewSystem1207.props
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\ReadingR.32B23B98.Up2Date
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\ReadingReviewSystem1207.dll
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\refint\ReadingReviewSystem1207.dll
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\ReadingReviewSystem1207.pdb
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\ReadingReviewSystem1207.genruntimeconfig.cache
 C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\ref\ReadingReviewSystem1207.dll
+C:\Users\USER\source\repos\ReadingReviewSystem1207\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

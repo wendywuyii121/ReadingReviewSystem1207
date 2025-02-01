@@ -18,7 +18,8 @@ namespace ReadingReviewSystem1207.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Title = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Review = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CoverImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    CoverImageUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    OwnerId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {

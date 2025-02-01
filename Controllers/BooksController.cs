@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using ReadingReviewSystem1207.Models;
-using System.Linq;
 
 namespace ReadingReviewSystem1207.Controllers
 {
@@ -13,30 +13,107 @@ namespace ReadingReviewSystem1207.Controllers
             _context = context;
         }
 
-        // 顯示書籍列表
-        public IActionResult Index()
+        // GET: Books/Index
+        public async Task<IActionResult> Index()
         {
-            var books = _context.Books.ToList();
+            var books = await _context.Books.ToListAsync();
             return View(books);
         }
-        // 顯示新增書籍的表單 (GET: Books/Create)
-        [HttpGet]
+
+        // GET: Books/Details/5
+        public async Task<IActionResult> Details(int id)
+        {
+            var book = await _context.Books.FirstOrDefaultAsync(b => b.Id == id);
+            if (book == null)
+            {
+                return NotFound();
+            }
+            return View(book);
+        }
+
+        // GET: Books/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // 處理新增書籍的表單提交 (POST: Books/Create)
+        // POST: Books/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Book book, IFormFile? coverImage)
         {
             if (ModelState.IsValid)
             {
-                // 檢查是否有上傳圖片
                 if (coverImage != null && coverImage.Length > 0)
                 {
-                    try
+                    var uniqueFileName = $"{Guid.NewGuid()}_{Path.GetFileName(coverImage.FileName)}";
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", uniqueFileName);
+                    Directory.CreateDirectory(Path.GetDirectoryName(filePath)!);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await coverImage.CopyToAsync(stream);
+                    }
+
+                    book.CoverImageUrl = "/images/" + uniqueFileName;
+                }
+                else
+                {
+                    book.CoverImageUrl = "/images/default-cover.jpg"; // 預設封面圖
+                }
+
+                _context.Books.Add(book);
+                await _context.SaveChangesAsync();
+
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(book);
+        }
+
+        // GET: Books/Edit/5
+        public async Task<IActionResult> Edit(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            var book = await _context.Books.FindAsync(id);
+            if (book == null)
+            {
+                return NotFound();
+            }
+            return View(book);
+        }
+
+        // POST: Books/Edit/5
+        // POST: Books/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, Book book, IFormFile? coverImage)
+        {
+            if (id != book.Id)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    // 從資料庫中取得原始記錄
+                    var existingBook = await _context.Books.FindAsync(id);
+                    if (existingBook == null)
+                    {
+                        return NotFound();
+                    }
+
+                    // 更新基本欄位
+                    existingBook.Title = book.Title;
+                    existingBook.Review = book.Review;
+
+                    // 如果上傳了新封面圖片，則處理上傳與更新
+                    if (coverImage != null && coverImage.Length > 0)
                     {
                         var uniqueFileName = $"{Guid.NewGuid()}_{Path.GetFileName(coverImage.FileName)}";
                         var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", uniqueFileName);
@@ -46,77 +123,63 @@ namespace ReadingReviewSystem1207.Controllers
                         {
                             await coverImage.CopyToAsync(stream);
                         }
-
-                        book.CoverImageUrl = "/images/" + uniqueFileName;
+                        existingBook.CoverImageUrl = "/images/" + uniqueFileName;
                     }
-                    catch (Exception ex)
-                    {
-                        Console.WriteLine($"圖片上傳失敗: {ex.Message}");
-                        ModelState.AddModelError("", "圖片上傳失敗，請重試。");
-                        return View(book);
-                    }
-                }
-                else
-                {
-                    // 未上傳圖片，設置默認圖片
-                    book.CoverImageUrl = "/images/default-cover.jpg";
-                }
+                    // 若未上傳新的封面圖片，就保留原本的 CoverImageUrl
 
-                // 保存數據
-                try
-                {
-                    _context.Books.Add(book);
+                    _context.Update(existingBook);
                     await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));
                 }
-                catch (Exception ex)
+                catch (DbUpdateConcurrencyException)
                 {
-                    Console.WriteLine($"數據保存失敗: {ex.Message}");
-                    ModelState.AddModelError("", "無法保存數據，請重試。");
+                    if (!BookExists(book.Id))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
                 }
+                return RedirectToAction(nameof(Index));
             }
-
             return View(book);
         }
 
-        // 顯示書籍詳情 (GET: Books/Details/{id})
-        public IActionResult Details(int id)
-        {
-            var book = _context.Books.FirstOrDefault(b => b.Id == id);
 
-            if (book == null)
+        // GET: Books/Delete/5
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id == null)
             {
-                Console.WriteLine($"找不到 id={id} 的書籍");
                 return NotFound();
             }
 
-            Console.WriteLine($"顯示書籍詳情: {book.Title}");
+            var book = await _context.Books.FirstOrDefaultAsync(b => b.Id == id);
+            if (book == null)
+            {
+                return NotFound();
+            }
             return View(book);
         }
-        [HttpGet]
-        public async Task<IActionResult> Delete(int id)
+
+        // POST: Books/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var book = await _context.Books.FindAsync(id);
-            if (book == null)
-            {
-                Console.WriteLine($"刪除失敗，找不到 ID 為 {id} 的書籍。");
-                return NotFound();
-            }
-
-            try
+            if (book != null)
             {
                 _context.Books.Remove(book);
                 await _context.SaveChangesAsync();
-                Console.WriteLine($"成功刪除書籍: {book.Title}");
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"刪除書籍失敗: {ex.Message}");
-                return StatusCode(500, "無法刪除該書籍，請重試。");
-            }
-
             return RedirectToAction(nameof(Index));
         }
 
+        private bool BookExists(int id)
+        {
+            return _context.Books.Any(e => e.Id == id);
+        }
     }
 }
