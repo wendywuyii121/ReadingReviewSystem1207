@@ -32,9 +32,16 @@
                         @book.Review.Substring(0, Math.Min(50, book.Review.Length))...
                         <a asp-controller="Books" asp-action="Details" asp-route-id="@book.Id" class="btn btn-link">查看詳情</a>
                     </td>
+                    
                     <td>
-                        <button class="btn btn-danger btn-sm" onclick="confirmDelete('@book.Id')">刪除</button>
+                        <a asp-action="Edit" asp-route-id="@book.Id" class="btn btn-info btn-sm">編輯</a>
+                        <form asp-controller="Books" asp-action="Delete" method="post" style="display:inline;" onsubmit="return confirm('確定要刪除這條心得嗎？');">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="id" value="@book.Id" />
+                            <button type="submit" class="btn btn-danger btn-sm">刪除</button>
+                        </form>
                     </td>
+
                 </tr>
             }
         </tbody>

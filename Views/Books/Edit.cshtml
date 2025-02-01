@@ -1,0 +1,57 @@
+﻿@model ReadingReviewSystem1207.Models.Book
+
+@{
+    ViewData["Title"] = "編輯心得";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    @Html.AntiForgeryToken()
+
+    <div class="row">
+        <!-- 左側：封面圖片及更新封面 -->
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>目前封面</label>
+                <div>
+                    @if (!string.IsNullOrEmpty(Model.CoverImageUrl))
+                    {
+                        <img src="@Model.CoverImageUrl" alt="Book Cover" class="img-fluid" />
+                    }
+                    else
+                    {
+                        <p>無封面圖片</p>
+                    }
+                </div>
+            </div>
+            <div class="form-group">
+                <label>更新封面圖片（選填）</label>
+                <input type="file" name="coverImage" class="form-control-file" />
+            </div>
+        </div>
+
+        <!-- 右側：標題與心得內容 -->
+        <div class="col-md-9">
+            <div class="form-group">
+                <label asp-for="Title"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Review"></label>
+                <textarea asp-for="Review" class="form-control" rows="10"></textarea>
+                <span asp-validation-for="Review" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="Id" />
+            <button type="submit" class="btn btn-primary">儲存修改</button>
+            <a asp-action="Index" class="btn btn-secondary">取消</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1293RdTgMBLXOMh0zThheOABieFs5+9xEPm1+GXyjz0=",
+  "Hash": "44tivC3rI/1IjLbdSxbx1nnfhAX2fOSKyh8AbuDnUoA=",
   "Source": "ReadingReviewSystem1207",
   "BasePath": "_content/ReadingReviewSystem1207",
   "Mode": "Default",
@@ -101,6 +101,48 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\1a02c698-c667-4c6d-b730-014d3ff6e426_下載 (2).jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "images/1a02c698-c667-4c6d-b730-014d3ff6e426_下載 (2)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ov4veo0omw",
+      "Integrity": "jKdnZ4IfxxDqOEwGIQNoxGyilWyCIMNNHx9UIhOKhjI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\1a02c698-c667-4c6d-b730-014d3ff6e426_下載 (2).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\25f0aef1-12ca-4015-b420-b4ed6a18c803_下載 (3).jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "images/25f0aef1-12ca-4015-b420-b4ed6a18c803_下載 (3)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gr87936cxn",
+      "Integrity": "5OJRCWZbygeMgETpM1K4pIyNMbkDXPgB1H+GftDqwZ0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\25f0aef1-12ca-4015-b420-b4ed6a18c803_下載 (3).jpg"
+    },
+    {
       "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\25f917e8-d55b-4693-9372-b6041f6806bf_螢幕擷取畫面 2025-01-21 213616.png",
       "SourceId": "ReadingReviewSystem1207",
       "SourceType": "Discovered",
@@ -164,6 +206,90 @@
       "OriginalItemSpec": "wwwroot\\images\\5763ee22-8121-4c84-8f36-f0f446ee7342_5.jpg"
     },
     {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\6f7237a7-9b6a-4e1b-af6b-a00008264218_下載 (1).jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "images/6f7237a7-9b6a-4e1b-af6b-a00008264218_下載 (1)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n713lb2uem",
+      "Integrity": "4wkBMKdjtDojeDylMnbM2/E/PrUnDtjh+YM9KKUvd/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\6f7237a7-9b6a-4e1b-af6b-a00008264218_下載 (1).jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\7165c21f-0ca8-4ea3-8ac4-ee7127972b25_getImage.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "images/7165c21f-0ca8-4ea3-8ac4-ee7127972b25_getImage#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sqne4cblyu",
+      "Integrity": "TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\7165c21f-0ca8-4ea3-8ac4-ee7127972b25_getImage.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\7c0a0c93-d19e-41a2-9281-00dcb403819e_下載.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "images/7c0a0c93-d19e-41a2-9281-00dcb403819e_下載#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a2uuv2egfd",
+      "Integrity": "sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\7c0a0c93-d19e-41a2-9281-00dcb403819e_下載.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\9f5c9b17-c430-455e-8ac5-5febe64d38c4_getImage.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "images/9f5c9b17-c430-455e-8ac5-5febe64d38c4_getImage#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3ltt0lymzp",
+      "Integrity": "B0/lMzm0h/xC9s2CGAgfhJeIG5Td8LijoLkk1AQhFrc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\9f5c9b17-c430-455e-8ac5-5febe64d38c4_getImage.jpg"
+    },
+    {
       "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\a2c9a6f1-bcd5-4ffd-b071-72730bb1301f_螢幕擷取畫面 2025-01-22 013859.png",
       "SourceId": "ReadingReviewSystem1207",
       "SourceType": "Discovered",
@@ -206,6 +332,27 @@
       "OriginalItemSpec": "wwwroot\\images\\b17b09de-f442-44b2-9807-5843e8737345_7.jpg"
     },
     {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\cbddd8d5-fda4-4a4d-be3a-1432d6a497ec_下載.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "images/cbddd8d5-fda4-4a4d-be3a-1432d6a497ec_下載#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a2uuv2egfd",
+      "Integrity": "sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cbddd8d5-fda4-4a4d-be3a-1432d6a497ec_下載.jpg"
+    },
+    {
       "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\default-cover.jpg",
       "SourceId": "ReadingReviewSystem1207",
       "SourceType": "Discovered",
@@ -225,6 +372,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\default-cover.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\e4187569-bf5e-4520-b0e7-fcdfff31a35d_getImage.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "images/e4187569-bf5e-4520-b0e7-fcdfff31a35d_getImage#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sqne4cblyu",
+      "Integrity": "TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\e4187569-bf5e-4520-b0e7-fcdfff31a35d_getImage.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\e424d4fa-669d-4e37-82de-be4f27a0af93_下載.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "images/e424d4fa-669d-4e37-82de-be4f27a0af93_下載#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a2uuv2egfd",
+      "Integrity": "sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\e424d4fa-669d-4e37-82de-be4f27a0af93_下載.jpg"
     },
     {
       "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\test_file.txt",
@@ -1632,6 +1821,170 @@
       ]
     },
     {
+      "Route": "images/1a02c698-c667-4c6d-b730-014d3ff6e426_下載 (2).jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\1a02c698-c667-4c6d-b730-014d3ff6e426_下載 (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8470"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jKdnZ4IfxxDqOEwGIQNoxGyilWyCIMNNHx9UIhOKhjI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jKdnZ4IfxxDqOEwGIQNoxGyilWyCIMNNHx9UIhOKhjI="
+        }
+      ]
+    },
+    {
+      "Route": "images/1a02c698-c667-4c6d-b730-014d3ff6e426_下載 (2).ov4veo0omw.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\1a02c698-c667-4c6d-b730-014d3ff6e426_下載 (2).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8470"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jKdnZ4IfxxDqOEwGIQNoxGyilWyCIMNNHx9UIhOKhjI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ov4veo0omw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/1a02c698-c667-4c6d-b730-014d3ff6e426_下載 (2).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jKdnZ4IfxxDqOEwGIQNoxGyilWyCIMNNHx9UIhOKhjI="
+        }
+      ]
+    },
+    {
+      "Route": "images/25f0aef1-12ca-4015-b420-b4ed6a18c803_下載 (3).gr87936cxn.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\25f0aef1-12ca-4015-b420-b4ed6a18c803_下載 (3).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5OJRCWZbygeMgETpM1K4pIyNMbkDXPgB1H+GftDqwZ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gr87936cxn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/25f0aef1-12ca-4015-b420-b4ed6a18c803_下載 (3).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5OJRCWZbygeMgETpM1K4pIyNMbkDXPgB1H+GftDqwZ0="
+        }
+      ]
+    },
+    {
+      "Route": "images/25f0aef1-12ca-4015-b420-b4ed6a18c803_下載 (3).jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\25f0aef1-12ca-4015-b420-b4ed6a18c803_下載 (3).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5OJRCWZbygeMgETpM1K4pIyNMbkDXPgB1H+GftDqwZ0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5OJRCWZbygeMgETpM1K4pIyNMbkDXPgB1H+GftDqwZ0="
+        }
+      ]
+    },
+    {
       "Route": "images/25f917e8-d55b-4693-9372-b6041f6806bf_螢幕擷取畫面 2025-01-21 213616.png",
       "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\25f917e8-d55b-4693-9372-b6041f6806bf_螢幕擷取畫面 2025-01-21 213616.png",
       "Selectors": [],
@@ -1654,7 +2007,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 14:26:21 GMT"
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1691,7 +2044,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 14:26:21 GMT"
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1736,7 +2089,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 14:26:42 GMT"
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1773,7 +2126,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 14:26:42 GMT"
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1818,7 +2171,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 14:31:44 GMT"
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1863,7 +2216,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 14:31:44 GMT"
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1874,6 +2227,334 @@
         {
           "Name": "integrity",
           "Value": "sha256-8nTBJTx4KmXUtTcQfREj4CyEALNTl4TjCe52xfe99zc="
+        }
+      ]
+    },
+    {
+      "Route": "images/6f7237a7-9b6a-4e1b-af6b-a00008264218_下載 (1).jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\6f7237a7-9b6a-4e1b-af6b-a00008264218_下載 (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7877"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4wkBMKdjtDojeDylMnbM2/E/PrUnDtjh+YM9KKUvd/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4wkBMKdjtDojeDylMnbM2/E/PrUnDtjh+YM9KKUvd/0="
+        }
+      ]
+    },
+    {
+      "Route": "images/6f7237a7-9b6a-4e1b-af6b-a00008264218_下載 (1).n713lb2uem.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\6f7237a7-9b6a-4e1b-af6b-a00008264218_下載 (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7877"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4wkBMKdjtDojeDylMnbM2/E/PrUnDtjh+YM9KKUvd/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n713lb2uem"
+        },
+        {
+          "Name": "label",
+          "Value": "images/6f7237a7-9b6a-4e1b-af6b-a00008264218_下載 (1).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4wkBMKdjtDojeDylMnbM2/E/PrUnDtjh+YM9KKUvd/0="
+        }
+      ]
+    },
+    {
+      "Route": "images/7165c21f-0ca8-4ea3-8ac4-ee7127972b25_getImage.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\7165c21f-0ca8-4ea3-8ac4-ee7127972b25_getImage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Feb 2025 09:03:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/7165c21f-0ca8-4ea3-8ac4-ee7127972b25_getImage.sqne4cblyu.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\7165c21f-0ca8-4ea3-8ac4-ee7127972b25_getImage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Feb 2025 09:03:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sqne4cblyu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/7165c21f-0ca8-4ea3-8ac4-ee7127972b25_getImage.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/7c0a0c93-d19e-41a2-9281-00dcb403819e_下載.a2uuv2egfd.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\7c0a0c93-d19e-41a2-9281-00dcb403819e_下載.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a2uuv2egfd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/7c0a0c93-d19e-41a2-9281-00dcb403819e_下載.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM="
+        }
+      ]
+    },
+    {
+      "Route": "images/7c0a0c93-d19e-41a2-9281-00dcb403819e_下載.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\7c0a0c93-d19e-41a2-9281-00dcb403819e_下載.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM="
+        }
+      ]
+    },
+    {
+      "Route": "images/9f5c9b17-c430-455e-8ac5-5febe64d38c4_getImage.3ltt0lymzp.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\9f5c9b17-c430-455e-8ac5-5febe64d38c4_getImage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B0/lMzm0h/xC9s2CGAgfhJeIG5Td8LijoLkk1AQhFrc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3ltt0lymzp"
+        },
+        {
+          "Name": "label",
+          "Value": "images/9f5c9b17-c430-455e-8ac5-5febe64d38c4_getImage.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-B0/lMzm0h/xC9s2CGAgfhJeIG5Td8LijoLkk1AQhFrc="
+        }
+      ]
+    },
+    {
+      "Route": "images/9f5c9b17-c430-455e-8ac5-5febe64d38c4_getImage.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\9f5c9b17-c430-455e-8ac5-5febe64d38c4_getImage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12272"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"B0/lMzm0h/xC9s2CGAgfhJeIG5Td8LijoLkk1AQhFrc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-B0/lMzm0h/xC9s2CGAgfhJeIG5Td8LijoLkk1AQhFrc="
         }
       ]
     },
@@ -1900,7 +2581,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 17:57:06 GMT"
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1937,7 +2618,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 17:57:06 GMT"
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1982,7 +2663,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 15:32:22 GMT"
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2019,7 +2700,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 15:32:22 GMT"
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2038,6 +2719,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-g+lv17Oo3h0rgfGG2titx4UTweEcVlzmhTHh/7LNx6k="
+        }
+      ]
+    },
+    {
+      "Route": "images/cbddd8d5-fda4-4a4d-be3a-1432d6a497ec_下載.a2uuv2egfd.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\cbddd8d5-fda4-4a4d-be3a-1432d6a497ec_下載.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a2uuv2egfd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/cbddd8d5-fda4-4a4d-be3a-1432d6a497ec_下載.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM="
+        }
+      ]
+    },
+    {
+      "Route": "images/cbddd8d5-fda4-4a4d-be3a-1432d6a497ec_下載.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\cbddd8d5-fda4-4a4d-be3a-1432d6a497ec_下載.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM="
         }
       ]
     },
@@ -2064,7 +2827,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 18:32:01 GMT"
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2109,7 +2872,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 18:32:01 GMT"
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2120,6 +2883,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-NEOV+cX9Q2FCpAeecRs102AdZIrba8sR2L7frZ1nPLI="
+        }
+      ]
+    },
+    {
+      "Route": "images/e4187569-bf5e-4520-b0e7-fcdfff31a35d_getImage.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\e4187569-bf5e-4520-b0e7-fcdfff31a35d_getImage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Feb 2025 09:11:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/e4187569-bf5e-4520-b0e7-fcdfff31a35d_getImage.sqne4cblyu.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\e4187569-bf5e-4520-b0e7-fcdfff31a35d_getImage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Feb 2025 09:11:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sqne4cblyu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/e4187569-bf5e-4520-b0e7-fcdfff31a35d_getImage.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/e424d4fa-669d-4e37-82de-be4f27a0af93_下載.a2uuv2egfd.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\e424d4fa-669d-4e37-82de-be4f27a0af93_下載.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Feb 2025 09:11:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a2uuv2egfd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/e424d4fa-669d-4e37-82de-be4f27a0af93_下載.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM="
+        }
+      ]
+    },
+    {
+      "Route": "images/e424d4fa-669d-4e37-82de-be4f27a0af93_下載.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\e424d4fa-669d-4e37-82de-be4f27a0af93_下載.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15155"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 01 Feb 2025 09:11:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM="
         }
       ]
     },
@@ -2146,7 +3073,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 18:47:41 GMT"
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2183,7 +3110,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 18:47:41 GMT"
+          "Value": "Fri, 31 Jan 2025 18:06:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6984,7 +7911,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 07:05:59 GMT"
+          "Value": "Fri, 31 Jan 2025 21:30:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7029,7 +7956,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 07:05:59 GMT"
+          "Value": "Fri, 31 Jan 2025 21:30:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7074,7 +8001,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 07:05:59 GMT"
+          "Value": "Fri, 31 Jan 2025 21:30:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7111,7 +8038,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 18 Jan 2025 07:05:59 GMT"
+          "Value": "Fri, 31 Jan 2025 21:30:18 GMT"
         },
         {
           "Name": "Cache-Control",

@@ -36,6 +36,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1a02c698-c667-4c6d-b730-014d3ff6e426_下載 (2).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadingReviewSystem1207</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadingReviewSystem1207</BasePath>
+      <RelativePath>images/1a02c698-c667-4c6d-b730-014d3ff6e426_下載 (2).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ov4veo0omw</Fingerprint>
+      <Integrity>jKdnZ4IfxxDqOEwGIQNoxGyilWyCIMNNHx9UIhOKhjI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\1a02c698-c667-4c6d-b730-014d3ff6e426_下載 (2).jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\25f0aef1-12ca-4015-b420-b4ed6a18c803_下載 (3).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadingReviewSystem1207</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadingReviewSystem1207</BasePath>
+      <RelativePath>images/25f0aef1-12ca-4015-b420-b4ed6a18c803_下載 (3).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>gr87936cxn</Fingerprint>
+      <Integrity>5OJRCWZbygeMgETpM1K4pIyNMbkDXPgB1H+GftDqwZ0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\25f0aef1-12ca-4015-b420-b4ed6a18c803_下載 (3).jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\25f917e8-d55b-4693-9372-b6041f6806bf_螢幕擷取畫面 2025-01-21 213616.png'))">
       <SourceType>Package</SourceType>
       <SourceId>ReadingReviewSystem1207</SourceId>
@@ -90,6 +126,78 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\5763ee22-8121-4c84-8f36-f0f446ee7342_5.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\6f7237a7-9b6a-4e1b-af6b-a00008264218_下載 (1).jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadingReviewSystem1207</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadingReviewSystem1207</BasePath>
+      <RelativePath>images/6f7237a7-9b6a-4e1b-af6b-a00008264218_下載 (1).jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>n713lb2uem</Fingerprint>
+      <Integrity>4wkBMKdjtDojeDylMnbM2/E/PrUnDtjh+YM9KKUvd/0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\6f7237a7-9b6a-4e1b-af6b-a00008264218_下載 (1).jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7165c21f-0ca8-4ea3-8ac4-ee7127972b25_getImage.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadingReviewSystem1207</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadingReviewSystem1207</BasePath>
+      <RelativePath>images/7165c21f-0ca8-4ea3-8ac4-ee7127972b25_getImage.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>sqne4cblyu</Fingerprint>
+      <Integrity>TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7165c21f-0ca8-4ea3-8ac4-ee7127972b25_getImage.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7c0a0c93-d19e-41a2-9281-00dcb403819e_下載.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadingReviewSystem1207</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadingReviewSystem1207</BasePath>
+      <RelativePath>images/7c0a0c93-d19e-41a2-9281-00dcb403819e_下載.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a2uuv2egfd</Fingerprint>
+      <Integrity>sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\7c0a0c93-d19e-41a2-9281-00dcb403819e_下載.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9f5c9b17-c430-455e-8ac5-5febe64d38c4_getImage.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadingReviewSystem1207</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadingReviewSystem1207</BasePath>
+      <RelativePath>images/9f5c9b17-c430-455e-8ac5-5febe64d38c4_getImage.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3ltt0lymzp</Fingerprint>
+      <Integrity>B0/lMzm0h/xC9s2CGAgfhJeIG5Td8LijoLkk1AQhFrc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\9f5c9b17-c430-455e-8ac5-5febe64d38c4_getImage.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\a2c9a6f1-bcd5-4ffd-b071-72730bb1301f_螢幕擷取畫面 2025-01-22 013859.png'))">
       <SourceType>Package</SourceType>
       <SourceId>ReadingReviewSystem1207</SourceId>
@@ -126,6 +234,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\b17b09de-f442-44b2-9807-5843e8737345_7.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cbddd8d5-fda4-4a4d-be3a-1432d6a497ec_下載.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadingReviewSystem1207</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadingReviewSystem1207</BasePath>
+      <RelativePath>images/cbddd8d5-fda4-4a4d-be3a-1432d6a497ec_下載.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a2uuv2egfd</Fingerprint>
+      <Integrity>sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\cbddd8d5-fda4-4a4d-be3a-1432d6a497ec_下載.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\default-cover.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ReadingReviewSystem1207</SourceId>
@@ -143,6 +269,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\default-cover.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e4187569-bf5e-4520-b0e7-fcdfff31a35d_getImage.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadingReviewSystem1207</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadingReviewSystem1207</BasePath>
+      <RelativePath>images/e4187569-bf5e-4520-b0e7-fcdfff31a35d_getImage.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>sqne4cblyu</Fingerprint>
+      <Integrity>TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e4187569-bf5e-4520-b0e7-fcdfff31a35d_getImage.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e424d4fa-669d-4e37-82de-be4f27a0af93_下載.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadingReviewSystem1207</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadingReviewSystem1207</BasePath>
+      <RelativePath>images/e424d4fa-669d-4e37-82de-be4f27a0af93_下載.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a2uuv2egfd</Fingerprint>
+      <Integrity>sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e424d4fa-669d-4e37-82de-be4f27a0af93_下載.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\test_file.txt'))">
       <SourceType>Package</SourceType>
