@@ -1,0 +1,55 @@
+﻿@model ReadingReviewSystem1207.ViewModels.LoginViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    ViewData["Title"] = "登入";
+}
+
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="card p-4 shadow-sm" style="width: 400px;">
+        <h3 class="text-center mb-4">登入</h3>
+
+        <!-- ✅ 顯示通知訊息 -->
+        @if (TempData["Message"] != null)
+        {
+            <div class="alert alert-info text-center">
+                @TempData["Message"]
+            </div>
+        }
+
+        <form asp-controller="Account" asp-action="Login" method="post">
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label"></label>
+                <input asp-for="Email" class="form-control" placeholder="輸入 Email" required />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Password" class="form-label"></label>
+                <input asp-for="Password" type="password" class="form-control" placeholder="輸入密碼" required />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="form-check mb-3">
+                <input asp-for="RememberMe" class="form-check-input" />
+                <label asp-for="RememberMe" class="form-check-label">記住我</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">登入</button>
+        </form>
+
+        <div class="text-center mt-3">
+            <a asp-controller="Account" asp-action="Register">沒有帳號？點此註冊</a>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

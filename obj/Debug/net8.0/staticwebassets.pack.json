@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\0e975cb6-03cc-47b7-9aeb-77789892b081_下載 (1).jpg",
+      "PackagePath": "staticwebassets\\images\\0e975cb6-03cc-47b7-9aeb-77789892b081_下載 (1).jpg"
+    },
+    {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\1a02c698-c667-4c6d-b730-014d3ff6e426_下載 (2).jpg",
       "PackagePath": "staticwebassets\\images\\1a02c698-c667-4c6d-b730-014d3ff6e426_下載 (2).jpg"
     },
@@ -45,6 +49,10 @@
       "PackagePath": "staticwebassets\\images\\7c0a0c93-d19e-41a2-9281-00dcb403819e_下載.jpg"
     },
     {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\7faf38d1-28ed-413c-aba3-ff0959fa3109_getImage.jpg",
+      "PackagePath": "staticwebassets\\images\\7faf38d1-28ed-413c-aba3-ff0959fa3109_getImage.jpg"
+    },
+    {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\9f5c9b17-c430-455e-8ac5-5febe64d38c4_getImage.jpg",
       "PackagePath": "staticwebassets\\images\\9f5c9b17-c430-455e-8ac5-5febe64d38c4_getImage.jpg"
     },
@@ -73,8 +81,20 @@
       "PackagePath": "staticwebassets\\images\\e424d4fa-669d-4e37-82de-be4f27a0af93_下載.jpg"
     },
     {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\f36d660d-80b5-43f9-b2bd-a4ca66f7c649_螢幕擷取畫面 2025-02-02 171509.png",
+      "PackagePath": "staticwebassets\\images\\f36d660d-80b5-43f9-b2bd-a4ca66f7c649_螢幕擷取畫面 2025-02-02 171509.png"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\getImage.jpg",
+      "PackagePath": "staticwebassets\\images\\getImage.jpg"
+    },
+    {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\test_file.txt",
       "PackagePath": "staticwebassets\\images\\test_file.txt"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\螢幕擷取畫面 2025-02-02 180415.png",
+      "PackagePath": "staticwebassets\\images\\螢幕擷取畫面 2025-02-02 180415.png"
     },
     {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\js\\site.js",
@@ -307,6 +327,30 @@
     {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\0a28b67b-beef-46ef-930f-c2b2418bdcae_LINE_ALBUM_照片_250123_1.jpg",
+      "PackagePath": "staticwebassets\\teacherCertificates\\0a28b67b-beef-46ef-930f-c2b2418bdcae_LINE_ALBUM_照片_250123_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\6efabaae-4bd1-42cc-a3cb-5e366e67f847_LINE_ALBUM_照片_250123_1.jpg",
+      "PackagePath": "staticwebassets\\teacherCertificates\\6efabaae-4bd1-42cc-a3cb-5e366e67f847_LINE_ALBUM_照片_250123_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\85f7bb90-7cc7-4ca8-8ac6-2278c30369a1_LINE_ALBUM_照片_250123_1.jpg",
+      "PackagePath": "staticwebassets\\teacherCertificates\\85f7bb90-7cc7-4ca8-8ac6-2278c30369a1_LINE_ALBUM_照片_250123_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\ae9f832c-e67d-451a-950b-ce7e257e6498_LINE_ALBUM_照片_250123_1.jpg",
+      "PackagePath": "staticwebassets\\teacherCertificates\\ae9f832c-e67d-451a-950b-ce7e257e6498_LINE_ALBUM_照片_250123_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\aeac0b6c-c550-4360-892f-7cb744a6f684_icdl.jpg",
+      "PackagePath": "staticwebassets\\teacherCertificates\\aeac0b6c-c550-4360-892f-7cb744a6f684_icdl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\cdbd2fb8-81e0-4a1a-a350-43cda9a0041b_獎狀2.jpg",
+      "PackagePath": "staticwebassets\\teacherCertificates\\cdbd2fb8-81e0-4a1a-a350-43cda9a0041b_獎狀2.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ReadingReviewSystem1207.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

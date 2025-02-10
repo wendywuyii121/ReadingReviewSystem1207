@@ -1,0 +1,74 @@
+﻿@model ReadingReviewSystem1207.ViewModels.RegisterViewModel
+
+@{
+    ViewData["Title"] = "註冊";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form asp-action="Register" method="post" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <!-- 姓名 -->
+    <div class="form-group">
+        <label asp-for="Name">姓名:(*必填)</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <!-- 電子郵件 -->
+    <div class="form-group">
+        <label asp-for="Email">Email:(*必填)</label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <!-- 密碼 -->
+    <div class="form-group">
+        <label asp-for="Password">密碼:(*必填)</label>
+        <input asp-for="Password" class="form-control" type="password" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+
+    <!-- 確認密碼 -->
+    <div class="form-group">
+        <label asp-for="ConfirmPassword">確認密碼:(*必填)</label>
+        <input asp-for="ConfirmPassword" class="form-control" type="password" />
+        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+    </div>
+
+    <!-- 學號（選填） -->
+    <div class="form-group">
+        <label asp-for="StudentId">學號:</label>
+        <input asp-for="StudentId" class="form-control" />
+        <span asp-validation-for="StudentId" class="text-danger"></span>
+    </div>
+
+    <!-- 申請教師身份 -->
+    <div class="form-group">
+        <label>申請教師身份？</label>
+        <input type="checkbox" asp-for="IsTeacher" />
+    </div>
+
+    <!-- 教師證上傳（僅在勾選教師時出現） -->
+    <div class="form-group">
+        <label asp-for="TeacherCertificate">請上傳教師證/工作證:</label>
+        <input asp-for="TeacherCertificate" class="form-control" type="file" />
+        <span asp-validation-for="TeacherCertificate" class="text-danger"></span>
+    </div>
+
+    <!-- 管理員代碼（選填） -->
+    <div class="form-group">
+        <label asp-for="AdminCode">管理員代碼:</label>
+        <input asp-for="AdminCode" class="form-control" />
+        <span asp-validation-for="AdminCode" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">註冊</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

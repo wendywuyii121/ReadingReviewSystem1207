@@ -19,9 +19,9 @@
                 <tr>
                     <td>@book.Title</td>
                     <td>
-                        @if (!string.IsNullOrEmpty(book.CoverImageUrl))
+                        @if (!string.IsNullOrEmpty(book.CoverImagePath)) //✅ 修改為 CoverImagePath
                         {
-                            <img src="@book.CoverImageUrl" alt="Book Cover" width="50" height="50" />
+                            <img src="@book.CoverImagePath" alt="Book Cover" width="50" height="50" />
                         }
                         else
                         {
@@ -29,9 +29,18 @@
                         }
                     </td>
                     <td>
-                        @book.Review.Substring(0, Math.Min(50, book.Review.Length))...
+                        @if (!string.IsNullOrEmpty(book.Review))
+                        {
+                            @(book.Review?.Substring(0, Math.Min(50, book.Review.Length)) + "...")
+                        }
+                        else
+                        {
+                            <em>無心得</em>
+                        }
                         <a asp-controller="Books" asp-action="Details" asp-route-id="@book.Id" class="btn btn-link">查看詳情</a>
                     </td>
+
+
                     
                     <td>
                         <a asp-action="Edit" asp-route-id="@book.Id" class="btn btn-info btn-sm">編輯</a>
@@ -41,7 +50,6 @@
                             <button type="submit" class="btn btn-danger btn-sm">刪除</button>
                         </form>
                     </td>
-
                 </tr>
             }
         </tbody>

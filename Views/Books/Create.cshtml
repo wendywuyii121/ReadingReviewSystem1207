@@ -1,19 +1,38 @@
-﻿@model ReadingReviewSystem1207.Models.Book
+﻿<form asp-controller="Books" asp-action="Create" method="post" enctype="multipart/form-data" class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    @Html.AntiForgeryToken()
 
-<h2>新增書籍</h2>
+    <div class="card p-4 shadow-lg" style="width: 500px;">
+        <h3 class="text-center mb-4">📚 新增讀書心得</h3>
 
-<form asp-action="Create" method="post" enctype="multipart/form-data">
-    <div>
-        <label for="Title">書名：</label>
-        <input type="text" asp-for="Title" required />
+        <!-- 書名 -->
+        <div class="mb-3">
+            <label for="Title" class="form-label fw-bold">
+                <i class="fas fa-book"></i> 書名：
+            </label>
+            <input type="text" id="Title" name="Title" class="form-control rounded" placeholder="請輸入書名" required />
+        </div>
+
+        <!-- 心得內容 -->
+        <div class="mb-3">
+            <label for="Review" class="form-label fw-bold">
+                <i class="fas fa-pen"></i> 心得內容：
+            </label>
+            <textarea id="Review" name="Review" class="form-control rounded" rows="20" style="min-height: 200px;" placeholder="寫下你的閱讀心得..." required></textarea>
+        </div>
+
+        <!-- 封面圖片 -->
+        <div class="mb-3">
+            <label for="CoverImage" class="form-label fw-bold">
+                <i class="fas fa-image"></i> 封面圖片：
+            </label>
+            <input type="file" id="CoverImage" name="coverImage" class="form-control rounded" />
+        </div>
+
+        <!-- 提交按鈕 -->
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary w-100">
+                📌 提交心得
+            </button>
+        </div>
     </div>
-    <div>
-        <label for="Review">心得內容：</label>
-        <textarea asp-for="Review" required></textarea>
-    </div>
-    <div>
-        <label for="CoverImage">封面圖片：</label>
-        <input type="file" name="coverImage" />
-    </div>
-    <button type="submit">提交</button>
 </form>

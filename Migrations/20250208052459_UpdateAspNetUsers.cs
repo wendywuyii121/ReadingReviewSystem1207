@@ -5,7 +5,7 @@
 namespace ReadingReviewSystem1207.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate_v2 : Migration
+    public partial class UpdateAspNetUsers : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "44tivC3rI/1IjLbdSxbx1nnfhAX2fOSKyh8AbuDnUoA=",
+  "Hash": "H07wx+QbixIgv9S0rRi34HPZdy9TOf1c+MpBl7pw0NY=",
   "Source": "ReadingReviewSystem1207",
   "BasePath": "_content/ReadingReviewSystem1207",
   "Mode": "Default",
@@ -99,6 +99,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\0e975cb6-03cc-47b7-9aeb-77789892b081_下載 (1).jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "images/0e975cb6-03cc-47b7-9aeb-77789892b081_下載 (1)#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "n713lb2uem",
+      "Integrity": "4wkBMKdjtDojeDylMnbM2/E/PrUnDtjh+YM9KKUvd/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\0e975cb6-03cc-47b7-9aeb-77789892b081_下載 (1).jpg"
     },
     {
       "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\1a02c698-c667-4c6d-b730-014d3ff6e426_下載 (2).jpg",
@@ -269,6 +290,27 @@
       "OriginalItemSpec": "wwwroot\\images\\7c0a0c93-d19e-41a2-9281-00dcb403819e_下載.jpg"
     },
     {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\7faf38d1-28ed-413c-aba3-ff0959fa3109_getImage.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "images/7faf38d1-28ed-413c-aba3-ff0959fa3109_getImage#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sqne4cblyu",
+      "Integrity": "TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\7faf38d1-28ed-413c-aba3-ff0959fa3109_getImage.jpg"
+    },
+    {
       "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\9f5c9b17-c430-455e-8ac5-5febe64d38c4_getImage.jpg",
       "SourceId": "ReadingReviewSystem1207",
       "SourceType": "Discovered",
@@ -416,6 +458,48 @@
       "OriginalItemSpec": "wwwroot\\images\\e424d4fa-669d-4e37-82de-be4f27a0af93_下載.jpg"
     },
     {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\f36d660d-80b5-43f9-b2bd-a4ca66f7c649_螢幕擷取畫面 2025-02-02 171509.png",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "images/f36d660d-80b5-43f9-b2bd-a4ca66f7c649_螢幕擷取畫面 2025-02-02 171509#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ko96rh3kpn",
+      "Integrity": "fHoDBy6q0LyFk3/y1hLU6onp9aeCqWpAvc2edrYznts=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\f36d660d-80b5-43f9-b2bd-a4ca66f7c649_螢幕擷取畫面 2025-02-02 171509.png"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\getImage.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "images/getImage#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sqne4cblyu",
+      "Integrity": "TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\getImage.jpg"
+    },
+    {
       "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\test_file.txt",
       "SourceId": "ReadingReviewSystem1207",
       "SourceType": "Discovered",
@@ -435,6 +519,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\test_file.txt"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\螢幕擷取畫面 2025-02-02 180415.png",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "images/螢幕擷取畫面 2025-02-02 180415#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "m5tyi3duw9",
+      "Integrity": "5qnWFLmIyevjvPapO9gSadMH9YR1GBUWJzqy9CiDwfY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\螢幕擷取畫面 2025-02-02 180415.png"
     },
     {
       "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\js\\site.js",
@@ -1653,6 +1758,132 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\0a28b67b-beef-46ef-930f-c2b2418bdcae_LINE_ALBUM_照片_250123_1.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "teacherCertificates/0a28b67b-beef-46ef-930f-c2b2418bdcae_LINE_ALBUM_照片_250123_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3y7b2jodo0",
+      "Integrity": "+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teacherCertificates\\0a28b67b-beef-46ef-930f-c2b2418bdcae_LINE_ALBUM_照片_250123_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\6efabaae-4bd1-42cc-a3cb-5e366e67f847_LINE_ALBUM_照片_250123_1.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "teacherCertificates/6efabaae-4bd1-42cc-a3cb-5e366e67f847_LINE_ALBUM_照片_250123_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3y7b2jodo0",
+      "Integrity": "+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teacherCertificates\\6efabaae-4bd1-42cc-a3cb-5e366e67f847_LINE_ALBUM_照片_250123_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\85f7bb90-7cc7-4ca8-8ac6-2278c30369a1_LINE_ALBUM_照片_250123_1.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "teacherCertificates/85f7bb90-7cc7-4ca8-8ac6-2278c30369a1_LINE_ALBUM_照片_250123_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3y7b2jodo0",
+      "Integrity": "+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teacherCertificates\\85f7bb90-7cc7-4ca8-8ac6-2278c30369a1_LINE_ALBUM_照片_250123_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\ae9f832c-e67d-451a-950b-ce7e257e6498_LINE_ALBUM_照片_250123_1.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "teacherCertificates/ae9f832c-e67d-451a-950b-ce7e257e6498_LINE_ALBUM_照片_250123_1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3y7b2jodo0",
+      "Integrity": "+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teacherCertificates\\ae9f832c-e67d-451a-950b-ce7e257e6498_LINE_ALBUM_照片_250123_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\aeac0b6c-c550-4360-892f-7cb744a6f684_icdl.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "teacherCertificates/aeac0b6c-c550-4360-892f-7cb744a6f684_icdl#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "et9opkk2d6",
+      "Integrity": "spBl+7qJ4csp2XIv2ArGCjCFLdV5HEY1y8THOBJ4iRQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teacherCertificates\\aeac0b6c-c550-4360-892f-7cb744a6f684_icdl.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\cdbd2fb8-81e0-4a1a-a350-43cda9a0041b_獎狀2.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "teacherCertificates/cdbd2fb8-81e0-4a1a-a350-43cda9a0041b_獎狀2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pwza04exgc",
+      "Integrity": "SYS7SOGG8lNusvyeqaTkXl+nrPkNeJo80oKIBLtR1Rg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teacherCertificates\\cdbd2fb8-81e0-4a1a-a350-43cda9a0041b_獎狀2.jpg"
     }
   ],
   "Endpoints": [
@@ -1817,6 +2048,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/0e975cb6-03cc-47b7-9aeb-77789892b081_下載 (1).jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\0e975cb6-03cc-47b7-9aeb-77789892b081_下載 (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7877"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4wkBMKdjtDojeDylMnbM2/E/PrUnDtjh+YM9KKUvd/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 09:27:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4wkBMKdjtDojeDylMnbM2/E/PrUnDtjh+YM9KKUvd/0="
+        }
+      ]
+    },
+    {
+      "Route": "images/0e975cb6-03cc-47b7-9aeb-77789892b081_下載 (1).n713lb2uem.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\0e975cb6-03cc-47b7-9aeb-77789892b081_下載 (1).jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7877"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4wkBMKdjtDojeDylMnbM2/E/PrUnDtjh+YM9KKUvd/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 09:27:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "n713lb2uem"
+        },
+        {
+          "Name": "label",
+          "Value": "images/0e975cb6-03cc-47b7-9aeb-77789892b081_下載 (1).jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4wkBMKdjtDojeDylMnbM2/E/PrUnDtjh+YM9KKUvd/0="
         }
       ]
     },
@@ -2335,7 +2648,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 09:03:55 GMT"
+          "Value": "Sun, 02 Feb 2025 09:27:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2372,7 +2685,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 09:03:55 GMT"
+          "Value": "Sun, 02 Feb 2025 09:27:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2473,6 +2786,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM="
+        }
+      ]
+    },
+    {
+      "Route": "images/7faf38d1-28ed-413c-aba3-ff0959fa3109_getImage.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\7faf38d1-28ed-413c-aba3-ff0959fa3109_getImage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 10:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/7faf38d1-28ed-413c-aba3-ff0959fa3109_getImage.sqne4cblyu.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\7faf38d1-28ed-413c-aba3-ff0959fa3109_getImage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 10:07:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sqne4cblyu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/7faf38d1-28ed-413c-aba3-ff0959fa3109_getImage.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ="
         }
       ]
     },
@@ -2909,7 +3304,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 09:11:18 GMT"
+          "Value": "Sun, 02 Feb 2025 09:27:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2946,7 +3341,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 09:11:18 GMT"
+          "Value": "Sun, 02 Feb 2025 09:27:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2991,7 +3386,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 09:11:41 GMT"
+          "Value": "Sun, 02 Feb 2025 09:27:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3036,7 +3431,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 01 Feb 2025 09:11:41 GMT"
+          "Value": "Sun, 02 Feb 2025 09:27:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3047,6 +3442,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-sprfzDqthDYKkP3SAIvmv7MYbo6glkq5dRsHCnrwToM="
+        }
+      ]
+    },
+    {
+      "Route": "images/f36d660d-80b5-43f9-b2bd-a4ca66f7c649_螢幕擷取畫面 2025-02-02 171509.ko96rh3kpn.png",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\f36d660d-80b5-43f9-b2bd-a4ca66f7c649_螢幕擷取畫面 2025-02-02 171509.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75700"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fHoDBy6q0LyFk3/y1hLU6onp9aeCqWpAvc2edrYznts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 12:23:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ko96rh3kpn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/f36d660d-80b5-43f9-b2bd-a4ca66f7c649_螢幕擷取畫面 2025-02-02 171509.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fHoDBy6q0LyFk3/y1hLU6onp9aeCqWpAvc2edrYznts="
+        }
+      ]
+    },
+    {
+      "Route": "images/f36d660d-80b5-43f9-b2bd-a4ca66f7c649_螢幕擷取畫面 2025-02-02 171509.png",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\f36d660d-80b5-43f9-b2bd-a4ca66f7c649_螢幕擷取畫面 2025-02-02 171509.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75700"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fHoDBy6q0LyFk3/y1hLU6onp9aeCqWpAvc2edrYznts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 12:23:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fHoDBy6q0LyFk3/y1hLU6onp9aeCqWpAvc2edrYznts="
+        }
+      ]
+    },
+    {
+      "Route": "images/getImage.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\getImage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 06:48:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/getImage.sqne4cblyu.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\getImage.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15410"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 06:48:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sqne4cblyu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/getImage.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TGwEm6UPKvHf0t7UF4LKMH4Df72kSR4s9jjwieDe1qQ="
         }
       ]
     },
@@ -3129,6 +3688,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-I1syV7fp19P/RP1rVw5gZ8SbvpJfuIjEfumLWdwcs+Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/螢幕擷取畫面 2025-02-02 180415.m5tyi3duw9.png",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\螢幕擷取畫面 2025-02-02 180415.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "306831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5qnWFLmIyevjvPapO9gSadMH9YR1GBUWJzqy9CiDwfY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 07:00:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m5tyi3duw9"
+        },
+        {
+          "Name": "label",
+          "Value": "images/螢幕擷取畫面 2025-02-02 180415.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5qnWFLmIyevjvPapO9gSadMH9YR1GBUWJzqy9CiDwfY="
+        }
+      ]
+    },
+    {
+      "Route": "images/螢幕擷取畫面 2025-02-02 180415.png",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\螢幕擷取畫面 2025-02-02 180415.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "306831"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5qnWFLmIyevjvPapO9gSadMH9YR1GBUWJzqy9CiDwfY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 07:00:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5qnWFLmIyevjvPapO9gSadMH9YR1GBUWJzqy9CiDwfY="
         }
       ]
     },
@@ -7911,7 +8552,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 31 Jan 2025 21:30:18 GMT"
+          "Value": "Sat, 08 Feb 2025 06:24:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7956,7 +8597,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 31 Jan 2025 21:30:18 GMT"
+          "Value": "Sat, 08 Feb 2025 06:24:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8001,7 +8642,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 31 Jan 2025 21:30:18 GMT"
+          "Value": "Sat, 08 Feb 2025 06:24:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8038,7 +8679,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 31 Jan 2025 21:30:18 GMT"
+          "Value": "Sat, 08 Feb 2025 06:24:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8049,6 +8690,498 @@
         {
           "Name": "integrity",
           "Value": "sha256-htFII1SfMbsyZVUXMuf2fTQZtcvXnmUO6mJPZLCFpLk="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/0a28b67b-beef-46ef-930f-c2b2418bdcae_LINE_ALBUM_照片_250123_1.3y7b2jodo0.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\0a28b67b-beef-46ef-930f-c2b2418bdcae_LINE_ALBUM_照片_250123_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 12:33:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3y7b2jodo0"
+        },
+        {
+          "Name": "label",
+          "Value": "teacherCertificates/0a28b67b-beef-46ef-930f-c2b2418bdcae_LINE_ALBUM_照片_250123_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/0a28b67b-beef-46ef-930f-c2b2418bdcae_LINE_ALBUM_照片_250123_1.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\0a28b67b-beef-46ef-930f-c2b2418bdcae_LINE_ALBUM_照片_250123_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 12:33:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/6efabaae-4bd1-42cc-a3cb-5e366e67f847_LINE_ALBUM_照片_250123_1.3y7b2jodo0.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\6efabaae-4bd1-42cc-a3cb-5e366e67f847_LINE_ALBUM_照片_250123_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 12:26:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3y7b2jodo0"
+        },
+        {
+          "Name": "label",
+          "Value": "teacherCertificates/6efabaae-4bd1-42cc-a3cb-5e366e67f847_LINE_ALBUM_照片_250123_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/6efabaae-4bd1-42cc-a3cb-5e366e67f847_LINE_ALBUM_照片_250123_1.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\6efabaae-4bd1-42cc-a3cb-5e366e67f847_LINE_ALBUM_照片_250123_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 12:26:32 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/85f7bb90-7cc7-4ca8-8ac6-2278c30369a1_LINE_ALBUM_照片_250123_1.3y7b2jodo0.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\85f7bb90-7cc7-4ca8-8ac6-2278c30369a1_LINE_ALBUM_照片_250123_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 03:33:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3y7b2jodo0"
+        },
+        {
+          "Name": "label",
+          "Value": "teacherCertificates/85f7bb90-7cc7-4ca8-8ac6-2278c30369a1_LINE_ALBUM_照片_250123_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/85f7bb90-7cc7-4ca8-8ac6-2278c30369a1_LINE_ALBUM_照片_250123_1.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\85f7bb90-7cc7-4ca8-8ac6-2278c30369a1_LINE_ALBUM_照片_250123_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 03:33:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/ae9f832c-e67d-451a-950b-ce7e257e6498_LINE_ALBUM_照片_250123_1.3y7b2jodo0.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\ae9f832c-e67d-451a-950b-ce7e257e6498_LINE_ALBUM_照片_250123_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 12:33:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3y7b2jodo0"
+        },
+        {
+          "Name": "label",
+          "Value": "teacherCertificates/ae9f832c-e67d-451a-950b-ce7e257e6498_LINE_ALBUM_照片_250123_1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/ae9f832c-e67d-451a-950b-ce7e257e6498_LINE_ALBUM_照片_250123_1.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\ae9f832c-e67d-451a-950b-ce7e257e6498_LINE_ALBUM_照片_250123_1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "172724"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 02 Feb 2025 12:33:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/aeac0b6c-c550-4360-892f-7cb744a6f684_icdl.et9opkk2d6.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\aeac0b6c-c550-4360-892f-7cb744a6f684_icdl.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"spBl+7qJ4csp2XIv2ArGCjCFLdV5HEY1y8THOBJ4iRQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 03:54:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "et9opkk2d6"
+        },
+        {
+          "Name": "label",
+          "Value": "teacherCertificates/aeac0b6c-c550-4360-892f-7cb744a6f684_icdl.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-spBl+7qJ4csp2XIv2ArGCjCFLdV5HEY1y8THOBJ4iRQ="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/aeac0b6c-c550-4360-892f-7cb744a6f684_icdl.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\aeac0b6c-c550-4360-892f-7cb744a6f684_icdl.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"spBl+7qJ4csp2XIv2ArGCjCFLdV5HEY1y8THOBJ4iRQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 03:54:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-spBl+7qJ4csp2XIv2ArGCjCFLdV5HEY1y8THOBJ4iRQ="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/cdbd2fb8-81e0-4a1a-a350-43cda9a0041b_獎狀2.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\cdbd2fb8-81e0-4a1a-a350-43cda9a0041b_獎狀2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SYS7SOGG8lNusvyeqaTkXl+nrPkNeJo80oKIBLtR1Rg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 06:48:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SYS7SOGG8lNusvyeqaTkXl+nrPkNeJo80oKIBLtR1Rg="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/cdbd2fb8-81e0-4a1a-a350-43cda9a0041b_獎狀2.pwza04exgc.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\cdbd2fb8-81e0-4a1a-a350-43cda9a0041b_獎狀2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88777"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SYS7SOGG8lNusvyeqaTkXl+nrPkNeJo80oKIBLtR1Rg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 03 Feb 2025 06:48:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pwza04exgc"
+        },
+        {
+          "Name": "label",
+          "Value": "teacherCertificates/cdbd2fb8-81e0-4a1a-a350-43cda9a0041b_獎狀2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SYS7SOGG8lNusvyeqaTkXl+nrPkNeJo80oKIBLtR1Rg="
         }
       ]
     }

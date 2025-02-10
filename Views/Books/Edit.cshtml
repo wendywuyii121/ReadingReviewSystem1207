@@ -15,9 +15,9 @@
             <div class="form-group">
                 <label>目前封面</label>
                 <div>
-                    @if (!string.IsNullOrEmpty(Model.CoverImageUrl))
+                    @if (!string.IsNullOrEmpty(Model.CoverImagePath)) // ✅ 修改為 CoverImagePath 
                     {
-                        <img src="@Model.CoverImageUrl" alt="Book Cover" class="img-fluid" />
+                        <img src="@Model.CoverImagePath" alt="Book Cover" class="img-fluid" />
                     }
                     else
                     {

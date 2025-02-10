@@ -1,0 +1,16 @@
+﻿@model IList<string>
+
+@if (Model.Any())
+{
+    <span class="nav-link">
+        歡迎, @User.Identity.Name
+        @if (Model.Contains("Admin"))
+        {
+            <span class="badge bg-danger">👑 管理員</span>
+        }
+        else if (Model.Contains("Teacher"))
+        {
+            <span class="badge bg-primary">🏫 教師</span>
+        }
+    </span>
+}

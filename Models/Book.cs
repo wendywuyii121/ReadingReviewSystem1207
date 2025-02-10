@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace ReadingReviewSystem1207.Models
 {
@@ -6,13 +7,16 @@ namespace ReadingReviewSystem1207.Models
     {
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "書名是必填項")]
-        public string Title { get; set; }
+        [Required]
+        [StringLength(255)]
+        public string Title { get; set; } = string.Empty;
 
-        [Required(ErrorMessage = "心得是必填項")]
-        public string Review { get; set; }
+        public string? OwnerId { get; set; } // 用戶 ID
+        public ApplicationUser? Owner { get; set; } // 關聯用戶
 
-        // 設置 CoverImageUrl 可為 null
-        public string? CoverImageUrl { get; set; }
+        public string? CoverImagePath { get; set; } // ✅ 確保這個屬性存在
+
+        public string? Review { get; set; } // ✅ 新增心得屬性
+
     }
 }

@@ -1,41 +1,69 @@
-using Microsoft.AspNetCore.DataProtection;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using ReadingReviewSystem1207.Data;
 using ReadingReviewSystem1207.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 註冊資料庫服務，使用 SQL Server 並從 appsettings.json 中讀取連線字串
-builder.Services.AddDbContext<ReadingReviewSystemDbContext>(options =>
+// 設定 ApplicationDbContext
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// 設定資料保護密鑰的儲存位置
-builder.Services.AddDataProtection()
-    .PersistKeysToFileSystem(new DirectoryInfo(@"C:\Users\USER\AppData\Local\ASP.NET\DataProtection-Keys"));
+// 設定 Identity
+builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<ApplicationDbContext>()
+    .AddDefaultTokenProviders();
 
-// 添加 MVC 支援
+// 新增：放寬 Identity 密碼政策
+builder.Services.Configure<IdentityOptions>(options =>
+{
+     options.Password.RequireDigit = false;
+     options.Password.RequiredLength = 4;
+     options.Password.RequireNonAlphanumeric = false;
+     options.Password.RequireUppercase = false;
+     options.Password.RequireLowercase = false;
+ });
+
 builder.Services.AddControllersWithViews();
+
+// 允許開發環境的 Cookie 在 HTTP 下傳輸
+if (builder.Environment.IsDevelopment())
+{
+    builder.Services.Configure<CookiePolicyOptions>(options =>
+    {
+        options.MinimumSameSitePolicy = SameSiteMode.Lax; // 避免 Cookie 限制
+        options.Secure = CookieSecurePolicy.None; // 允許 Cookie 在 HTTP 傳輸
+    });
+
+    builder.Services.ConfigureApplicationCookie(options =>
+    {
+        options.Cookie.SecurePolicy = CookieSecurePolicy.None; // 允許身份驗證 Cookie 在 HTTP 下傳輸
+        options.Cookie.SameSite = SameSiteMode.Lax; // 放寬 SameSite 限制
+    });
+}
 
 var app = builder.Build();
 
-// HTTP 請求管道設置
 if (!app.Environment.IsDevelopment())
 {
-    // 不是開發環境時，使用自定義錯誤頁面
     app.UseExceptionHandler("/Home/Error");
-    // 啟用 HSTS（HTTP 嚴格傳輸安全）
     app.UseHsts();
 }
+else
+{
+    app.UseDeveloperExceptionPage();
+}
 
-// 強制 HTTPS，將 HTTP 請求重定向至 HTTPS
+// 啟用 Cookie 設定
+app.UseCookiePolicy();
 app.UseHttpsRedirection();
-// 允許靜態檔案（如圖片、CSS、JS 等）
 app.UseStaticFiles();
-// 啟用路由
 app.UseRouting();
-// 啟用授權
+app.UseAuthentication();
 app.UseAuthorization();
 
-// 設定默認路由，控制器為 Books，動作為 Index
+// 設定路由
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Books}/{action=Index}/{id?}");

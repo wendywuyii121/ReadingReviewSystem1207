@@ -1,164 +1,102 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using ReadingReviewSystem1207.Data;
 using ReadingReviewSystem1207.Models;
+using System;
+using System.IO;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace ReadingReviewSystem1207.Controllers
 {
+    [Authorize]
     public class BooksController : Controller
     {
-        private readonly ReadingReviewSystemDbContext _context;
+        private readonly ApplicationDbContext _context;
+        private readonly UserManager<ApplicationUser> _userManager;
+        private readonly ILogger<BooksController> _logger;
 
-        public BooksController(ReadingReviewSystemDbContext context)
+        public BooksController(ApplicationDbContext context, UserManager<ApplicationUser> userManager, ILogger<BooksController> logger)
         {
             _context = context;
+            _userManager = userManager;
+            _logger = logger;
         }
 
-        // GET: Books/Index
+        // **🔹 Index 方法 (顯示用戶的心得) 🔹**
+        [HttpGet]
         public async Task<IActionResult> Index()
         {
-            var books = await _context.Books.ToListAsync();
-            return View(books);
+            // 記錄進入 Index 方法
+            _logger.LogInformation("Debug: 進入 Books Index 方法");
+            Console.WriteLine("Books Index 方法開始執行");
+
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                _logger.LogWarning("用戶未登入，導向至 Login 頁面");
+                return RedirectToAction("Login", "Account");
+            }
+
+            var books = await _context.Books
+                .Where(b => b.OwnerId == user.Id)
+                .ToListAsync();
+
+            _logger.LogInformation("成功取得用戶 {UserId} 的書籍數量: {BookCount}", user.Id, books.Count);
+
+            return View(books); // **✅ 確保返回 View**
         }
 
-        // GET: Books/Details/5
-        public async Task<IActionResult> Details(int id)
-        {
-            var book = await _context.Books.FirstOrDefaultAsync(b => b.Id == id);
-            if (book == null)
-                return NotFound();
-            return View(book);
-        }
-
-        // GET: Books/Create
+        // **🔹 Create 方法 (顯示表單) 🔹**
+        [HttpGet]
         public IActionResult Create()
         {
+            _logger.LogInformation("Debug: 進入 Books Create 方法 (GET)");
+            Console.WriteLine("Books Create 方法開始執行 (GET)");
             return View();
         }
 
-        // POST: Books/Create
+        // **🔹 Create 方法 (處理表單提交) 🔹**
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Book book, IFormFile? coverImage)
         {
-            if (ModelState.IsValid)
+            _logger.LogInformation("Debug: 進入 Books Create 方法 (POST)");
+            Console.WriteLine("Books Create 方法開始執行 (POST)");
+
+            if (!ModelState.IsValid)
             {
-                if (coverImage != null && coverImage.Length > 0)
-                {
-                    var uniqueFileName = $"{Guid.NewGuid()}_{Path.GetFileName(coverImage.FileName)}";
-                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", uniqueFileName);
-                    Directory.CreateDirectory(Path.GetDirectoryName(filePath)!);
-
-                    using (var stream = new FileStream(filePath, FileMode.Create))
-                    {
-                        await coverImage.CopyToAsync(stream);
-                    }
-                    book.CoverImageUrl = "/images/" + uniqueFileName;
-                }
-                else
-                {
-                    book.CoverImageUrl = "/images/default-cover.jpg"; // 預設封面圖
-                }
-
-                _context.Books.Add(book);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                _logger.LogWarning("表單驗證失敗");
+                return View(book);
             }
-            return View(book);
-        }
 
-        // GET: Books/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-                return NotFound();
-
-            var book = await _context.Books.FindAsync(id);
-            if (book == null)
-                return NotFound();
-
-            return View(book);
-        }
-
-        // POST: Books/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Book book, IFormFile? coverImage)
-        {
-            if (id != book.Id)
-                return NotFound();
-
-            if (ModelState.IsValid)
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
             {
-                try
-                {
-                    // 從資料庫中取得原始記錄，避免覆蓋掉未更新的資料
-                    var existingBook = await _context.Books.FindAsync(id);
-                    if (existingBook == null)
-                        return NotFound();
-
-                    // 更新基本欄位
-                    existingBook.Title = book.Title;
-                    existingBook.Review = book.Review;
-
-                    // 如果有上傳新的封面圖片則更新，否則保留原值
-                    if (coverImage != null && coverImage.Length > 0)
-                    {
-                        var uniqueFileName = $"{Guid.NewGuid()}_{Path.GetFileName(coverImage.FileName)}";
-                        var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", uniqueFileName);
-                        Directory.CreateDirectory(Path.GetDirectoryName(filePath)!);
-
-                        using (var stream = new FileStream(filePath, FileMode.Create))
-                        {
-                            await coverImage.CopyToAsync(stream);
-                        }
-                        existingBook.CoverImageUrl = "/images/" + uniqueFileName;
-                    }
-
-                    _context.Update(existingBook);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!BookExists(book.Id))
-                        return NotFound();
-                    else
-                        throw;
-                }
-                return RedirectToAction(nameof(Index));
+                _logger.LogWarning("用戶未登入，導向至 Login 頁面");
+                return RedirectToAction("Login", "Account");
             }
-            return View(book);
-        }
 
-        // GET: Books/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
-                return NotFound();
-
-            var book = await _context.Books.FirstOrDefaultAsync(b => b.Id == id);
-            if (book == null)
-                return NotFound();
-
-            return View(book);
-        }
-
-        // POST: Books/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var book = await _context.Books.FindAsync(id);
-            if (book != null)
+            // 處理封面圖片上傳
+            if (coverImage != null && coverImage.Length > 0)
             {
-                _context.Books.Remove(book);
-                await _context.SaveChangesAsync();
+                var filePath = Path.Combine("wwwroot/images", coverImage.FileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await coverImage.CopyToAsync(stream);
+                }
+                book.CoverImagePath = "/images/" + coverImage.FileName;
             }
+
+            book.OwnerId = user.Id;
+            _context.Books.Add(book);
+            await _context.SaveChangesAsync();
+
+            _logger.LogInformation("成功新增書籍 {BookTitle} (ID: {BookId})", book.Title, book.Id);
             return RedirectToAction(nameof(Index));
-        }
-
-        private bool BookExists(int id)
-        {
-            return _context.Books.Any(e => e.Id == id);
         }
     }
 }
