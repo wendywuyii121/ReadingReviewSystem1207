@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "H07wx+QbixIgv9S0rRi34HPZdy9TOf1c+MpBl7pw0NY=",
+  "Hash": "p5TP62mb6dTZRdtQupSFr7t1wfPi4djkOMPoO/bmvzQ=",
   "Source": "ReadingReviewSystem1207",
   "BasePath": "_content/ReadingReviewSystem1207",
   "Mode": "Default",
@@ -458,6 +458,27 @@
       "OriginalItemSpec": "wwwroot\\images\\e424d4fa-669d-4e37-82de-be4f27a0af93_下載.jpg"
     },
     {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\ERP證照(SAP.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "images/ERP證照(SAP#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zzt2j43e6c",
+      "Integrity": "ociBK0LBNdGv52qe+rRNOfVr9dtghxDUKS9ygwT6d3M=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\ERP證照(SAP.jpg"
+    },
+    {
       "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\f36d660d-80b5-43f9-b2bd-a4ca66f7c649_螢幕擷取畫面 2025-02-02 171509.png",
       "SourceId": "ReadingReviewSystem1207",
       "SourceType": "Discovered",
@@ -519,6 +540,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\test_file.txt"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\螢幕擷取畫面 2025-02-02 160001.png",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "images/螢幕擷取畫面 2025-02-02 160001#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ytcimw7mkj",
+      "Integrity": "dlf4WbfRohJv5pR/2Qkc+Opm1jj0KV9bXH1LBpMV/ac=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\螢幕擷取畫面 2025-02-02 160001.png"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\螢幕擷取畫面 2025-02-02 171509.png",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "images/螢幕擷取畫面 2025-02-02 171509#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ko96rh3kpn",
+      "Integrity": "fHoDBy6q0LyFk3/y1hLU6onp9aeCqWpAvc2edrYznts=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\螢幕擷取畫面 2025-02-02 171509.png"
     },
     {
       "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\螢幕擷取畫面 2025-02-02 180415.png",
@@ -3446,6 +3509,88 @@
       ]
     },
     {
+      "Route": "images/ERP證照(SAP.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\ERP證照(SAP.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ociBK0LBNdGv52qe+rRNOfVr9dtghxDUKS9ygwT6d3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 09:05:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ociBK0LBNdGv52qe+rRNOfVr9dtghxDUKS9ygwT6d3M="
+        }
+      ]
+    },
+    {
+      "Route": "images/ERP證照(SAP.zzt2j43e6c.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\ERP證照(SAP.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ociBK0LBNdGv52qe+rRNOfVr9dtghxDUKS9ygwT6d3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 09:05:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zzt2j43e6c"
+        },
+        {
+          "Name": "label",
+          "Value": "images/ERP證照(SAP.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ociBK0LBNdGv52qe+rRNOfVr9dtghxDUKS9ygwT6d3M="
+        }
+      ]
+    },
+    {
       "Route": "images/f36d660d-80b5-43f9-b2bd-a4ca66f7c649_螢幕擷取畫面 2025-02-02 171509.ko96rh3kpn.png",
       "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\f36d660d-80b5-43f9-b2bd-a4ca66f7c649_螢幕擷取畫面 2025-02-02 171509.png",
       "Selectors": [],
@@ -3688,6 +3833,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-I1syV7fp19P/RP1rVw5gZ8SbvpJfuIjEfumLWdwcs+Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/螢幕擷取畫面 2025-02-02 160001.png",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\螢幕擷取畫面 2025-02-02 160001.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dlf4WbfRohJv5pR/2Qkc+Opm1jj0KV9bXH1LBpMV/ac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 07:43:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dlf4WbfRohJv5pR/2Qkc+Opm1jj0KV9bXH1LBpMV/ac="
+        }
+      ]
+    },
+    {
+      "Route": "images/螢幕擷取畫面 2025-02-02 160001.ytcimw7mkj.png",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\螢幕擷取畫面 2025-02-02 160001.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dlf4WbfRohJv5pR/2Qkc+Opm1jj0KV9bXH1LBpMV/ac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 07:43:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ytcimw7mkj"
+        },
+        {
+          "Name": "label",
+          "Value": "images/螢幕擷取畫面 2025-02-02 160001.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dlf4WbfRohJv5pR/2Qkc+Opm1jj0KV9bXH1LBpMV/ac="
+        }
+      ]
+    },
+    {
+      "Route": "images/螢幕擷取畫面 2025-02-02 171509.ko96rh3kpn.png",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\螢幕擷取畫面 2025-02-02 171509.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75700"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fHoDBy6q0LyFk3/y1hLU6onp9aeCqWpAvc2edrYznts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 08:59:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ko96rh3kpn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/螢幕擷取畫面 2025-02-02 171509.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fHoDBy6q0LyFk3/y1hLU6onp9aeCqWpAvc2edrYznts="
+        }
+      ]
+    },
+    {
+      "Route": "images/螢幕擷取畫面 2025-02-02 171509.png",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\螢幕擷取畫面 2025-02-02 171509.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75700"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fHoDBy6q0LyFk3/y1hLU6onp9aeCqWpAvc2edrYznts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 08:59:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fHoDBy6q0LyFk3/y1hLU6onp9aeCqWpAvc2edrYznts="
         }
       ]
     },

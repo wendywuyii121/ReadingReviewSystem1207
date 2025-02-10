@@ -26,11 +26,10 @@ namespace ReadingReviewSystem1207.Controllers
             _logger = logger;
         }
 
-        // **🔹 Index 方法 (顯示用戶的心得) 🔹**
+        // **🔹 Index 方法 (顯示用戶的書籍心得) 🔹**
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-            // 記錄進入 Index 方法
             _logger.LogInformation("Debug: 進入 Books Index 方法");
             Console.WriteLine("Books Index 方法開始執行");
 
@@ -46,11 +45,10 @@ namespace ReadingReviewSystem1207.Controllers
                 .ToListAsync();
 
             _logger.LogInformation("成功取得用戶 {UserId} 的書籍數量: {BookCount}", user.Id, books.Count);
-
-            return View(books); // **✅ 確保返回 View**
+            return View(books);
         }
 
-        // **🔹 Create 方法 (顯示表單) 🔹**
+        // **🔹 Create 方法 (顯示新增表單) 🔹**
         [HttpGet]
         public IActionResult Create()
         {
@@ -59,7 +57,7 @@ namespace ReadingReviewSystem1207.Controllers
             return View();
         }
 
-        // **🔹 Create 方法 (處理表單提交) 🔹**
+        // **🔹 Create 方法 (處理新增請求) 🔹**
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Book book, IFormFile? coverImage)
@@ -96,6 +94,128 @@ namespace ReadingReviewSystem1207.Controllers
             await _context.SaveChangesAsync();
 
             _logger.LogInformation("成功新增書籍 {BookTitle} (ID: {BookId})", book.Title, book.Id);
+            return RedirectToAction(nameof(Index));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Details(int id)
+        {
+            _logger.LogInformation("Debug: 進入 Books Details 方法 | 書籍ID: {BookId}", id);
+            Console.WriteLine("Books Details 方法開始執行");
+
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            var book = await _context.Books.FirstOrDefaultAsync(b => b.Id == id && b.OwnerId == user.Id);
+            if (book == null)
+            {
+                _logger.LogWarning("未找到書籍 (ID: {BookId}) 或沒有權限", id);
+                return NotFound();
+            }
+
+            return View(book);
+        }
+
+
+        // **🔹 Edit 方法 (顯示編輯表單) 🔹**
+        [HttpGet]
+        public async Task<IActionResult> Edit(int id)
+        {
+            _logger.LogInformation("Debug: 進入 Books Edit 方法 (GET) | 書籍ID: {BookId}", id);
+            Console.WriteLine("Books Edit 方法開始執行 (GET)");
+
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            var book = await _context.Books.FirstOrDefaultAsync(b => b.Id == id && b.OwnerId == user.Id);
+            if (book == null)
+            {
+                _logger.LogWarning("未找到書籍 (ID: {BookId}) 或沒有權限", id);
+                return NotFound();
+            }
+
+            return View(book);
+        }
+
+        // **🔹 Edit 方法 (處理編輯請求) 🔹**
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, Book book, IFormFile? coverImage)
+        {
+            _logger.LogInformation("Debug: 進入 Books Edit 方法 (POST) | 書籍ID: {BookId}", id);
+            Console.WriteLine("Books Edit 方法開始執行 (POST)");
+
+            if (id != book.Id)
+            {
+                _logger.LogWarning("ID 不匹配 (表單 ID: {FormId}, URL ID: {UrlId})", book.Id, id);
+                return BadRequest();
+            }
+
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            var existingBook = await _context.Books.FirstOrDefaultAsync(b => b.Id == id && b.OwnerId == user.Id);
+            if (existingBook == null)
+            {
+                _logger.LogWarning("未找到書籍 (ID: {BookId}) 或沒有權限", id);
+                return NotFound();
+            }
+
+            existingBook.Title = book.Title;
+            existingBook.Review = book.Review;
+
+            // 更新封面圖片
+            if (coverImage != null && coverImage.Length > 0)
+            {
+                var filePath = Path.Combine("wwwroot/images", coverImage.FileName);
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await coverImage.CopyToAsync(stream);
+                }
+                existingBook.CoverImagePath = "/images/" + coverImage.FileName;
+            }
+
+            _context.Update(existingBook);
+            await _context.SaveChangesAsync();
+
+            _logger.LogInformation("成功編輯書籍 {BookTitle} (ID: {BookId})", book.Title, book.Id);
+            return RedirectToAction(nameof(Index));
+        }
+
+        // **🔹 Delete 方法 (刪除書籍) 🔹**
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Delete(int id)
+        {
+            _logger.LogInformation("Debug: 進入 Books Delete 方法 | 書籍ID: {BookId}", id);
+            Console.WriteLine("Books Delete 方法開始執行");
+
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return RedirectToAction("Login", "Account");
+            }
+
+            var book = await _context.Books.FirstOrDefaultAsync(b => b.Id == id && b.OwnerId == user.Id);
+            if (book == null)
+            {
+                _logger.LogWarning("未找到書籍 (ID: {BookId}) 或沒有權限", id);
+                return NotFound();
+            }
+
+            _context.Books.Remove(book);
+            await _context.SaveChangesAsync();
+
+            _logger.LogInformation("成功刪除書籍 (ID: {BookId})", id);
             return RedirectToAction(nameof(Index));
         }
     }

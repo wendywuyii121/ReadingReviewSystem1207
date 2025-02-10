@@ -1151,6 +1151,88 @@
       ]
     },
     {
+      "Route": "images/ERP證照(SAP.jpg",
+      "AssetFile": "images/ERP證照(SAP.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ociBK0LBNdGv52qe+rRNOfVr9dtghxDUKS9ygwT6d3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 09:05:25 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ociBK0LBNdGv52qe+rRNOfVr9dtghxDUKS9ygwT6d3M="
+        }
+      ]
+    },
+    {
+      "Route": "images/ERP證照(SAP.zzt2j43e6c.jpg",
+      "AssetFile": "images/ERP證照(SAP.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "82212"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ociBK0LBNdGv52qe+rRNOfVr9dtghxDUKS9ygwT6d3M=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 09:05:25 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zzt2j43e6c"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ociBK0LBNdGv52qe+rRNOfVr9dtghxDUKS9ygwT6d3M="
+        },
+        {
+          "Name": "label",
+          "Value": "images/ERP證照(SAP.jpg"
+        }
+      ]
+    },
+    {
       "Route": "images/a2c9a6f1-bcd5-4ffd-b071-72730bb1301f_螢幕擷取畫面 2025-01-22 013859.png",
       "AssetFile": "images/a2c9a6f1-bcd5-4ffd-b071-72730bb1301f_螢幕擷取畫面 2025-01-22 013859.png",
       "Selectors": [],
@@ -1885,6 +1967,170 @@
         {
           "Name": "label",
           "Value": "images/test_file.txt"
+        }
+      ]
+    },
+    {
+      "Route": "images/螢幕擷取畫面 2025-02-02 160001.png",
+      "AssetFile": "images/螢幕擷取畫面 2025-02-02 160001.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dlf4WbfRohJv5pR/2Qkc+Opm1jj0KV9bXH1LBpMV/ac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 07:43:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dlf4WbfRohJv5pR/2Qkc+Opm1jj0KV9bXH1LBpMV/ac="
+        }
+      ]
+    },
+    {
+      "Route": "images/螢幕擷取畫面 2025-02-02 160001.ytcimw7mkj.png",
+      "AssetFile": "images/螢幕擷取畫面 2025-02-02 160001.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "68196"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dlf4WbfRohJv5pR/2Qkc+Opm1jj0KV9bXH1LBpMV/ac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 08 Feb 2025 07:43:01 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ytcimw7mkj"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dlf4WbfRohJv5pR/2Qkc+Opm1jj0KV9bXH1LBpMV/ac="
+        },
+        {
+          "Name": "label",
+          "Value": "images/螢幕擷取畫面 2025-02-02 160001.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/螢幕擷取畫面 2025-02-02 171509.ko96rh3kpn.png",
+      "AssetFile": "images/螢幕擷取畫面 2025-02-02 171509.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75700"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fHoDBy6q0LyFk3/y1hLU6onp9aeCqWpAvc2edrYznts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 08:59:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ko96rh3kpn"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fHoDBy6q0LyFk3/y1hLU6onp9aeCqWpAvc2edrYznts="
+        },
+        {
+          "Name": "label",
+          "Value": "images/螢幕擷取畫面 2025-02-02 171509.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/螢幕擷取畫面 2025-02-02 171509.png",
+      "AssetFile": "images/螢幕擷取畫面 2025-02-02 171509.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "75700"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fHoDBy6q0LyFk3/y1hLU6onp9aeCqWpAvc2edrYznts=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Feb 2025 08:59:21 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fHoDBy6q0LyFk3/y1hLU6onp9aeCqWpAvc2edrYznts="
         }
       ]
     },

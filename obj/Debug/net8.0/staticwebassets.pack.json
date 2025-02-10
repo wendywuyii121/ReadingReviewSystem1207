@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\images\\9f5c9b17-c430-455e-8ac5-5febe64d38c4_getImage.jpg"
     },
     {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\ERP證照(SAP.jpg",
+      "PackagePath": "staticwebassets\\images\\ERP證照(SAP.jpg"
+    },
+    {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\a2c9a6f1-bcd5-4ffd-b071-72730bb1301f_螢幕擷取畫面 2025-01-22 013859.png",
       "PackagePath": "staticwebassets\\images\\a2c9a6f1-bcd5-4ffd-b071-72730bb1301f_螢幕擷取畫面 2025-01-22 013859.png"
     },
@@ -91,6 +95,14 @@
     {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\test_file.txt",
       "PackagePath": "staticwebassets\\images\\test_file.txt"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\螢幕擷取畫面 2025-02-02 160001.png",
+      "PackagePath": "staticwebassets\\images\\螢幕擷取畫面 2025-02-02 160001.png"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\螢幕擷取畫面 2025-02-02 171509.png",
+      "PackagePath": "staticwebassets\\images\\螢幕擷取畫面 2025-02-02 171509.png"
     },
     {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\螢幕擷取畫面 2025-02-02 180415.png",

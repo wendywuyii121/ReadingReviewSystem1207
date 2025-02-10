@@ -17,9 +17,12 @@ wwwroot\images\cbddd8d5-fda4-4a4d-be3a-1432d6a497ec_下載.jpg
 wwwroot\images\default-cover.jpg
 wwwroot\images\e4187569-bf5e-4520-b0e7-fcdfff31a35d_getImage.jpg
 wwwroot\images\e424d4fa-669d-4e37-82de-be4f27a0af93_下載.jpg
+wwwroot\images\ERP證照(SAP.jpg
 wwwroot\images\f36d660d-80b5-43f9-b2bd-a4ca66f7c649_螢幕擷取畫面 2025-02-02 171509.png
 wwwroot\images\getImage.jpg
 wwwroot\images\test_file.txt
+wwwroot\images\螢幕擷取畫面 2025-02-02 160001.png
+wwwroot\images\螢幕擷取畫面 2025-02-02 171509.png
 wwwroot\images\螢幕擷取畫面 2025-02-02 180415.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

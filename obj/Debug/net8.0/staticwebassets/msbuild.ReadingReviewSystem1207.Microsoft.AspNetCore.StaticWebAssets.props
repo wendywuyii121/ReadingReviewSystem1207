@@ -342,6 +342,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\e424d4fa-669d-4e37-82de-be4f27a0af93_下載.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ERP證照(SAP.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadingReviewSystem1207</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadingReviewSystem1207</BasePath>
+      <RelativePath>images/ERP證照(SAP.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zzt2j43e6c</Fingerprint>
+      <Integrity>ociBK0LBNdGv52qe+rRNOfVr9dtghxDUKS9ygwT6d3M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\ERP證照(SAP.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\f36d660d-80b5-43f9-b2bd-a4ca66f7c649_螢幕擷取畫面 2025-02-02 171509.png'))">
       <SourceType>Package</SourceType>
       <SourceId>ReadingReviewSystem1207</SourceId>
@@ -395,6 +413,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\test_file.txt'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\螢幕擷取畫面 2025-02-02 160001.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadingReviewSystem1207</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadingReviewSystem1207</BasePath>
+      <RelativePath>images/螢幕擷取畫面 2025-02-02 160001.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ytcimw7mkj</Fingerprint>
+      <Integrity>dlf4WbfRohJv5pR/2Qkc+Opm1jj0KV9bXH1LBpMV/ac=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\螢幕擷取畫面 2025-02-02 160001.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\螢幕擷取畫面 2025-02-02 171509.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadingReviewSystem1207</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadingReviewSystem1207</BasePath>
+      <RelativePath>images/螢幕擷取畫面 2025-02-02 171509.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ko96rh3kpn</Fingerprint>
+      <Integrity>fHoDBy6q0LyFk3/y1hLU6onp9aeCqWpAvc2edrYznts=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\螢幕擷取畫面 2025-02-02 171509.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\螢幕擷取畫面 2025-02-02 180415.png'))">
       <SourceType>Package</SourceType>
