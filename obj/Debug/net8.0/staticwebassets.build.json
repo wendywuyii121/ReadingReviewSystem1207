@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BrP5TF3mzGhttbl/cbcLnr7EZ064I6PZ/2tnKIBahYA=",
+  "Hash": "GNsQDTEbgzXmYZ7XuiQ+ximIbru2U9DDD2yklwSq6Eg=",
   "Source": "ReadingReviewSystem1207",
   "BasePath": "_content/ReadingReviewSystem1207",
   "Mode": "Default",
@@ -1991,6 +1991,48 @@
       "OriginalItemSpec": "wwwroot\\teacherCertificates\\0a28b67b-beef-46ef-930f-c2b2418bdcae_LINE_ALBUM_照片_250123_1.jpg"
     },
     {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\136da2d9-ca1e-4ed8-8013-cae65efdc240_實習證明.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "teacherCertificates/136da2d9-ca1e-4ed8-8013-cae65efdc240_實習證明#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "99gvi2wegh",
+      "Integrity": "84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teacherCertificates\\136da2d9-ca1e-4ed8-8013-cae65efdc240_實習證明.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\19276795-313c-4c1e-85bb-c2f7e8e91bb2_實習證明.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "teacherCertificates/19276795-313c-4c1e-85bb-c2f7e8e91bb2_實習證明#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "99gvi2wegh",
+      "Integrity": "84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teacherCertificates\\19276795-313c-4c1e-85bb-c2f7e8e91bb2_實習證明.jpg"
+    },
+    {
       "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\23dd8dd4-376c-4867-8f10-f0900c86491e.jpg",
       "SourceId": "ReadingReviewSystem1207",
       "SourceType": "Discovered",
@@ -2033,6 +2075,27 @@
       "OriginalItemSpec": "wwwroot\\teacherCertificates\\4ddd41ec-63d6-4366-a96f-7b03a64018db.png"
     },
     {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\54ca4751-360c-4942-9300-dcf061e33aac_畢業專題獎狀.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "teacherCertificates/54ca4751-360c-4942-9300-dcf061e33aac_畢業專題獎狀#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "c3fakuywph",
+      "Integrity": "GKnjC6xMIrXERPljBBSuOEySq6cRqzP4Omu8+BGojjU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teacherCertificates\\54ca4751-360c-4942-9300-dcf061e33aac_畢業專題獎狀.jpg"
+    },
+    {
       "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\6efabaae-4bd1-42cc-a3cb-5e366e67f847_LINE_ALBUM_照片_250123_1.jpg",
       "SourceId": "ReadingReviewSystem1207",
       "SourceType": "Discovered",
@@ -2052,6 +2115,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\teacherCertificates\\6efabaae-4bd1-42cc-a3cb-5e366e67f847_LINE_ALBUM_照片_250123_1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\712087ab-853c-44a5-85ef-739054482826_實習證明.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "teacherCertificates/712087ab-853c-44a5-85ef-739054482826_實習證明#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "99gvi2wegh",
+      "Integrity": "84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teacherCertificates\\712087ab-853c-44a5-85ef-739054482826_實習證明.jpg"
     },
     {
       "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\85f7bb90-7cc7-4ca8-8ac6-2278c30369a1_LINE_ALBUM_照片_250123_1.jpg",
@@ -2157,6 +2241,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\teacherCertificates\\cdbd2fb8-81e0-4a1a-a350-43cda9a0041b_獎狀2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\fc856274-9f20-421b-8055-d5b41e173053_獎狀4.jpg",
+      "SourceId": "ReadingReviewSystem1207",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\",
+      "BasePath": "_content/ReadingReviewSystem1207",
+      "RelativePath": "teacherCertificates/fc856274-9f20-421b-8055-d5b41e173053_獎狀4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "shg0q4q6s5",
+      "Integrity": "gKKNn77St9K9tHKN4BaEGC0zIdishZX2X+qKEhMN3lA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\teacherCertificates\\fc856274-9f20-421b-8055-d5b41e173053_獎狀4.jpg"
     }
   ],
   "Endpoints": [
@@ -3987,7 +4092,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:55:06 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4032,7 +4137,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:55:06 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4151,7 +4256,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:41:34 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4188,7 +4293,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:41:34 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4233,7 +4338,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:39:31 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4278,7 +4383,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:39:31 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4315,7 +4420,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:40:21 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4360,7 +4465,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:40:21 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4397,7 +4502,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:40:45 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4434,7 +4539,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:40:45 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4725,7 +4830,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:48:26 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4770,7 +4875,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:48:26 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4807,7 +4912,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 10:21:57 GMT"
+          "Value": "Tue, 11 Feb 2025 14:59:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4844,7 +4949,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 10:21:57 GMT"
+          "Value": "Tue, 11 Feb 2025 14:59:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9869,6 +9974,170 @@
       ]
     },
     {
+      "Route": "teacherCertificates/136da2d9-ca1e-4ed8-8013-cae65efdc240_實習證明.99gvi2wegh.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\136da2d9-ca1e-4ed8-8013-cae65efdc240_實習證明.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 15:14:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "99gvi2wegh"
+        },
+        {
+          "Name": "label",
+          "Value": "teacherCertificates/136da2d9-ca1e-4ed8-8013-cae65efdc240_實習證明.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/136da2d9-ca1e-4ed8-8013-cae65efdc240_實習證明.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\136da2d9-ca1e-4ed8-8013-cae65efdc240_實習證明.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 15:14:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/19276795-313c-4c1e-85bb-c2f7e8e91bb2_實習證明.99gvi2wegh.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\19276795-313c-4c1e-85bb-c2f7e8e91bb2_實習證明.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 15:14:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "99gvi2wegh"
+        },
+        {
+          "Name": "label",
+          "Value": "teacherCertificates/19276795-313c-4c1e-85bb-c2f7e8e91bb2_實習證明.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/19276795-313c-4c1e-85bb-c2f7e8e91bb2_實習證明.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\19276795-313c-4c1e-85bb-c2f7e8e91bb2_實習證明.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 15:14:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg="
+        }
+      ]
+    },
+    {
       "Route": "teacherCertificates/23dd8dd4-376c-4867-8f10-f0900c86491e.c3fakuywph.jpg",
       "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\23dd8dd4-376c-4867-8f10-f0900c86491e.jpg",
       "Selectors": [],
@@ -9891,7 +10160,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 16:51:38 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9936,7 +10205,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 16:51:38 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -9973,7 +10242,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 18:09:18 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10018,7 +10287,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 18:09:18 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10029,6 +10298,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-5qnWFLmIyevjvPapO9gSadMH9YR1GBUWJzqy9CiDwfY="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/54ca4751-360c-4942-9300-dcf061e33aac_畢業專題獎狀.c3fakuywph.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\54ca4751-360c-4942-9300-dcf061e33aac_畢業專題獎狀.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GKnjC6xMIrXERPljBBSuOEySq6cRqzP4Omu8+BGojjU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 15:05:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c3fakuywph"
+        },
+        {
+          "Name": "label",
+          "Value": "teacherCertificates/54ca4751-360c-4942-9300-dcf061e33aac_畢業專題獎狀.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GKnjC6xMIrXERPljBBSuOEySq6cRqzP4Omu8+BGojjU="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/54ca4751-360c-4942-9300-dcf061e33aac_畢業專題獎狀.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\54ca4751-360c-4942-9300-dcf061e33aac_畢業專題獎狀.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GKnjC6xMIrXERPljBBSuOEySq6cRqzP4Omu8+BGojjU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 15:05:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GKnjC6xMIrXERPljBBSuOEySq6cRqzP4Omu8+BGojjU="
         }
       ]
     },
@@ -10111,6 +10462,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/712087ab-853c-44a5-85ef-739054482826_實習證明.99gvi2wegh.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\712087ab-853c-44a5-85ef-739054482826_實習證明.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 15:13:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "99gvi2wegh"
+        },
+        {
+          "Name": "label",
+          "Value": "teacherCertificates/712087ab-853c-44a5-85ef-739054482826_實習證明.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/712087ab-853c-44a5-85ef-739054482826_實習證明.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\712087ab-853c-44a5-85ef-739054482826_實習證明.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 15:13:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg="
         }
       ]
     },
@@ -10219,7 +10652,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 16:40:34 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10256,7 +10689,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 16:40:34 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10521,6 +10954,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-SYS7SOGG8lNusvyeqaTkXl+nrPkNeJo80oKIBLtR1Rg="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/fc856274-9f20-421b-8055-d5b41e173053_獎狀4.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\fc856274-9f20-421b-8055-d5b41e173053_獎狀4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gKKNn77St9K9tHKN4BaEGC0zIdishZX2X+qKEhMN3lA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gKKNn77St9K9tHKN4BaEGC0zIdishZX2X+qKEhMN3lA="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/fc856274-9f20-421b-8055-d5b41e173053_獎狀4.shg0q4q6s5.jpg",
+      "AssetFile": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\fc856274-9f20-421b-8055-d5b41e173053_獎狀4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gKKNn77St9K9tHKN4BaEGC0zIdishZX2X+qKEhMN3lA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "shg0q4q6s5"
+        },
+        {
+          "Name": "label",
+          "Value": "teacherCertificates/fc856274-9f20-421b-8055-d5b41e173053_獎狀4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gKKNn77St9K9tHKN4BaEGC0zIdishZX2X+qKEhMN3lA="
         }
       ]
     }

@@ -1915,7 +1915,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:55:06 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         }
       ],
       "EndpointProperties": [
@@ -1960,7 +1960,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:55:06 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2079,7 +2079,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:41:34 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2116,7 +2116,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:41:34 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2161,7 +2161,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:39:31 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2206,7 +2206,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:39:31 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2243,7 +2243,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:40:21 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2288,7 +2288,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:40:21 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2325,7 +2325,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:40:45 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2362,7 +2362,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 09:40:45 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2653,7 +2653,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:48:26 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2698,7 +2698,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 08:48:26 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2735,7 +2735,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 10:21:57 GMT"
+          "Value": "Tue, 11 Feb 2025 14:59:40 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2772,7 +2772,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 11 Feb 2025 10:21:57 GMT"
+          "Value": "Tue, 11 Feb 2025 14:59:40 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7629,6 +7629,170 @@
       ]
     },
     {
+      "Route": "teacherCertificates/136da2d9-ca1e-4ed8-8013-cae65efdc240_實習證明.99gvi2wegh.jpg",
+      "AssetFile": "teacherCertificates/136da2d9-ca1e-4ed8-8013-cae65efdc240_實習證明.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 15:14:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "99gvi2wegh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg="
+        },
+        {
+          "Name": "label",
+          "Value": "teacherCertificates/136da2d9-ca1e-4ed8-8013-cae65efdc240_實習證明.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/136da2d9-ca1e-4ed8-8013-cae65efdc240_實習證明.jpg",
+      "AssetFile": "teacherCertificates/136da2d9-ca1e-4ed8-8013-cae65efdc240_實習證明.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 15:14:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/19276795-313c-4c1e-85bb-c2f7e8e91bb2_實習證明.99gvi2wegh.jpg",
+      "AssetFile": "teacherCertificates/19276795-313c-4c1e-85bb-c2f7e8e91bb2_實習證明.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 15:14:18 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "99gvi2wegh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg="
+        },
+        {
+          "Name": "label",
+          "Value": "teacherCertificates/19276795-313c-4c1e-85bb-c2f7e8e91bb2_實習證明.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/19276795-313c-4c1e-85bb-c2f7e8e91bb2_實習證明.jpg",
+      "AssetFile": "teacherCertificates/19276795-313c-4c1e-85bb-c2f7e8e91bb2_實習證明.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 15:14:18 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg="
+        }
+      ]
+    },
+    {
       "Route": "teacherCertificates/23dd8dd4-376c-4867-8f10-f0900c86491e.c3fakuywph.jpg",
       "AssetFile": "teacherCertificates/23dd8dd4-376c-4867-8f10-f0900c86491e.jpg",
       "Selectors": [],
@@ -7655,7 +7819,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 16:51:38 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7700,7 +7864,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 16:51:38 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7737,7 +7901,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 18:09:18 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         }
       ],
       "EndpointProperties": [
@@ -7782,13 +7946,95 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 18:09:18 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
           "Value": "sha256-5qnWFLmIyevjvPapO9gSadMH9YR1GBUWJzqy9CiDwfY="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/54ca4751-360c-4942-9300-dcf061e33aac_畢業專題獎狀.c3fakuywph.jpg",
+      "AssetFile": "teacherCertificates/54ca4751-360c-4942-9300-dcf061e33aac_畢業專題獎狀.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GKnjC6xMIrXERPljBBSuOEySq6cRqzP4Omu8+BGojjU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 15:05:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "c3fakuywph"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GKnjC6xMIrXERPljBBSuOEySq6cRqzP4Omu8+BGojjU="
+        },
+        {
+          "Name": "label",
+          "Value": "teacherCertificates/54ca4751-360c-4942-9300-dcf061e33aac_畢業專題獎狀.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/54ca4751-360c-4942-9300-dcf061e33aac_畢業專題獎狀.jpg",
+      "AssetFile": "teacherCertificates/54ca4751-360c-4942-9300-dcf061e33aac_畢業專題獎狀.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "113534"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GKnjC6xMIrXERPljBBSuOEySq6cRqzP4Omu8+BGojjU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 15:05:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GKnjC6xMIrXERPljBBSuOEySq6cRqzP4Omu8+BGojjU="
         }
       ]
     },
@@ -7871,6 +8117,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-+yqwAdZCWAQB/fprxNom1kDvKwKSonbD1y+9L9xDdD8="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/712087ab-853c-44a5-85ef-739054482826_實習證明.99gvi2wegh.jpg",
+      "AssetFile": "teacherCertificates/712087ab-853c-44a5-85ef-739054482826_實習證明.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 15:13:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "99gvi2wegh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg="
+        },
+        {
+          "Name": "label",
+          "Value": "teacherCertificates/712087ab-853c-44a5-85ef-739054482826_實習證明.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/712087ab-853c-44a5-85ef-739054482826_實習證明.jpg",
+      "AssetFile": "teacherCertificates/712087ab-853c-44a5-85ef-739054482826_實習證明.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86891"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 15:13:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg="
         }
       ]
     },
@@ -7983,7 +8311,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 16:40:34 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8020,7 +8348,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Feb 2025 16:40:34 GMT"
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
         }
       ],
       "EndpointProperties": [
@@ -8281,6 +8609,88 @@
         {
           "Name": "label",
           "Value": "teacherCertificates/cdbd2fb8-81e0-4a1a-a350-43cda9a0041b_獎狀2.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/fc856274-9f20-421b-8055-d5b41e173053_獎狀4.jpg",
+      "AssetFile": "teacherCertificates/fc856274-9f20-421b-8055-d5b41e173053_獎狀4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gKKNn77St9K9tHKN4BaEGC0zIdishZX2X+qKEhMN3lA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gKKNn77St9K9tHKN4BaEGC0zIdishZX2X+qKEhMN3lA="
+        }
+      ]
+    },
+    {
+      "Route": "teacherCertificates/fc856274-9f20-421b-8055-d5b41e173053_獎狀4.shg0q4q6s5.jpg",
+      "AssetFile": "teacherCertificates/fc856274-9f20-421b-8055-d5b41e173053_獎狀4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "88496"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gKKNn77St9K9tHKN4BaEGC0zIdishZX2X+qKEhMN3lA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Feb 2025 14:33:14 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "shg0q4q6s5"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gKKNn77St9K9tHKN4BaEGC0zIdishZX2X+qKEhMN3lA="
+        },
+        {
+          "Name": "label",
+          "Value": "teacherCertificates/fc856274-9f20-421b-8055-d5b41e173053_獎狀4.jpg"
         }
       ]
     }

@@ -1674,6 +1674,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teacherCertificates\0a28b67b-beef-46ef-930f-c2b2418bdcae_LINE_ALBUM_照片_250123_1.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teacherCertificates\136da2d9-ca1e-4ed8-8013-cae65efdc240_實習證明.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadingReviewSystem1207</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadingReviewSystem1207</BasePath>
+      <RelativePath>teacherCertificates/136da2d9-ca1e-4ed8-8013-cae65efdc240_實習證明.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>99gvi2wegh</Fingerprint>
+      <Integrity>84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teacherCertificates\136da2d9-ca1e-4ed8-8013-cae65efdc240_實習證明.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teacherCertificates\19276795-313c-4c1e-85bb-c2f7e8e91bb2_實習證明.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadingReviewSystem1207</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadingReviewSystem1207</BasePath>
+      <RelativePath>teacherCertificates/19276795-313c-4c1e-85bb-c2f7e8e91bb2_實習證明.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>99gvi2wegh</Fingerprint>
+      <Integrity>84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teacherCertificates\19276795-313c-4c1e-85bb-c2f7e8e91bb2_實習證明.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teacherCertificates\23dd8dd4-376c-4867-8f10-f0900c86491e.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ReadingReviewSystem1207</SourceId>
@@ -1710,6 +1746,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teacherCertificates\4ddd41ec-63d6-4366-a96f-7b03a64018db.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teacherCertificates\54ca4751-360c-4942-9300-dcf061e33aac_畢業專題獎狀.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadingReviewSystem1207</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadingReviewSystem1207</BasePath>
+      <RelativePath>teacherCertificates/54ca4751-360c-4942-9300-dcf061e33aac_畢業專題獎狀.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>c3fakuywph</Fingerprint>
+      <Integrity>GKnjC6xMIrXERPljBBSuOEySq6cRqzP4Omu8+BGojjU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teacherCertificates\54ca4751-360c-4942-9300-dcf061e33aac_畢業專題獎狀.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teacherCertificates\6efabaae-4bd1-42cc-a3cb-5e366e67f847_LINE_ALBUM_照片_250123_1.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>ReadingReviewSystem1207</SourceId>
@@ -1727,6 +1781,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teacherCertificates\6efabaae-4bd1-42cc-a3cb-5e366e67f847_LINE_ALBUM_照片_250123_1.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teacherCertificates\712087ab-853c-44a5-85ef-739054482826_實習證明.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadingReviewSystem1207</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadingReviewSystem1207</BasePath>
+      <RelativePath>teacherCertificates/712087ab-853c-44a5-85ef-739054482826_實習證明.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>99gvi2wegh</Fingerprint>
+      <Integrity>84H5GYGGzqTYILhm69ITDeI9/y3l95djbfmxCfmaaVg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teacherCertificates\712087ab-853c-44a5-85ef-739054482826_實習證明.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teacherCertificates\85f7bb90-7cc7-4ca8-8ac6-2278c30369a1_LINE_ALBUM_照片_250123_1.jpg'))">
       <SourceType>Package</SourceType>
@@ -1817,6 +1889,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teacherCertificates\cdbd2fb8-81e0-4a1a-a350-43cda9a0041b_獎狀2.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teacherCertificates\fc856274-9f20-421b-8055-d5b41e173053_獎狀4.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ReadingReviewSystem1207</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ReadingReviewSystem1207</BasePath>
+      <RelativePath>teacherCertificates/fc856274-9f20-421b-8055-d5b41e173053_獎狀4.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>shg0q4q6s5</Fingerprint>
+      <Integrity>gKKNn77St9K9tHKN4BaEGC0zIdishZX2X+qKEhMN3lA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\teacherCertificates\fc856274-9f20-421b-8055-d5b41e173053_獎狀4.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

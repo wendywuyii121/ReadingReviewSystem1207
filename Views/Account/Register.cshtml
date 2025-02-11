@@ -44,25 +44,18 @@
         <span asp-validation-for="StudentId" class="text-danger"></span>
     </div>
 
-    <!-- 申請教師身份 
+    <!-- 申請教師身份 -->
     <div class="form-group">
         <label>申請教師身份？</label>
-        <input type="checkbox" asp-for="IsTeacher" />
-    </div>-->
+        <input type="checkbox" asp-for="IsTeacher" id="isTeacherCheckbox" />
+    </div>
 
     <!-- 教師證上傳（僅在勾選教師時出現） -->
-    <div class="form-group">
+    <div class="form-group" id="teacherCertificateGroup" style="display:none;">
         <label asp-for="TeacherCertificate">如要申請教師身分請上傳教師證/工作證:</label>
         <input asp-for="TeacherCertificate" class="form-control" type="file" />
         <span asp-validation-for="TeacherCertificate" class="text-danger"></span>
     </div>
-
-    <!-- 管理員代碼（選填） 
-    <div class="form-group">
-        <label asp-for="AdminCode">管理員代碼:</label>
-        <input asp-for="AdminCode" class="form-control" />
-        <span asp-validation-for="AdminCode" class="text-danger"></span>
-    </div>-->
 
     <button type="submit" class="btn btn-primary">註冊</button>
 </form>
@@ -71,4 +64,36 @@
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
+
+    <script>
+        // 等待頁面加載完成後再綁定事件
+        document.addEventListener("DOMContentLoaded", function() {
+            var teacherCheckbox = document.getElementById('isTeacherCheckbox');
+            var teacherCertificateGroup = document.getElementById('teacherCertificateGroup');
+
+            // 根據是否勾選顯示/隱藏教師證上傳欄位
+            teacherCheckbox.addEventListener('change', function() {
+                if (this.checked) {
+                    teacherCertificateGroup.style.display = 'block';  // 顯示教師證上傳欄位
+                } else {
+                    teacherCertificateGroup.style.display = 'none';   // 隱藏教師證上傳欄位
+                }
+            });
+
+            // 頁面加載時檢查勾選框狀態，初始化教師證上傳欄位顯示或隱藏
+            if (teacherCheckbox.checked) {
+                teacherCertificateGroup.style.display = 'block';
+            } else {
+                teacherCertificateGroup.style.display = 'none';
+            }
+        });
+    </script>
 }
+
+
+<!-- 管理員代碼（選填）
+   <div class="form-group">
+       <label asp-for="AdminCode">管理員代碼:</label>
+       <input asp-for="AdminCode" class="form-control" />
+       <span asp-validation-for="AdminCode" class="text-danger"></span>
+   </div>-->

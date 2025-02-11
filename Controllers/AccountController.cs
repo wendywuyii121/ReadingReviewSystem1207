@@ -134,24 +134,43 @@ namespace ReadingReviewSystem1207.Controllers
                 return View(model);
             }
 
-            if (user.Role == "Teacher" && user.Status == "Pending")
+            // ✅ 確保管理員、學生、教師的登入條件正確
+            if (user.Role == "Teacher")
             {
-                TempData["Message"] = "您好，管理員審核中，請於 1-3 個工作天後登入。";
-                return RedirectToAction("Login", "Account");
+                if (user.Status == "Pending")
+                {
+                    TempData["Message"] = "您的教師申請仍在審核中，請等待審核結果。";
+                    return RedirectToAction("Login", "Account");
+                }
+                else if (user.Status == "Rejected")
+                {
+                    TempData["Message"] = "您的教師申請已被拒絕，請聯絡管理員。";
+                    return RedirectToAction("Login", "Account");
+                }
             }
 
             await _signInManager.SignInAsync(user, isPersistent: model.RememberMe);
 
-            // 新增：判斷如果使用者是管理員則跳轉到 /Admin/Index
+            // ✅ 根據身份跳轉
             if (user.Role == "Admin")
             {
-                return RedirectToAction("Index", "Admin");
+                return RedirectToAction("Index", "Admin"); // 管理員跳轉到管理頁面
             }
-            else
+            else if (user.Role == "Teacher" && user.Status == "Approved") // ✅ 只有 Approved 的教師才能進入
             {
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Teacher"); // 教師跳轉到教師儀表板
             }
+            else if (user.Role == "Student") // ✅ 學生正常登入
+            {
+                return RedirectToAction("Index", "Home"); // 學生跳轉到首頁
+            }
+
+            // 如果角色無法辨識，則登出並返回登入頁面
+            await _signInManager.SignOutAsync();
+            TempData["Message"] = "登入失敗，請聯絡管理員。";
+            return RedirectToAction("Login", "Account");
         }
+
 
         // 登出
         [HttpPost]

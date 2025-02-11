@@ -373,6 +373,14 @@
       "PackagePath": "staticwebassets\\teacherCertificates\\0a28b67b-beef-46ef-930f-c2b2418bdcae_LINE_ALBUM_照片_250123_1.jpg"
     },
     {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\136da2d9-ca1e-4ed8-8013-cae65efdc240_實習證明.jpg",
+      "PackagePath": "staticwebassets\\teacherCertificates\\136da2d9-ca1e-4ed8-8013-cae65efdc240_實習證明.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\19276795-313c-4c1e-85bb-c2f7e8e91bb2_實習證明.jpg",
+      "PackagePath": "staticwebassets\\teacherCertificates\\19276795-313c-4c1e-85bb-c2f7e8e91bb2_實習證明.jpg"
+    },
+    {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\23dd8dd4-376c-4867-8f10-f0900c86491e.jpg",
       "PackagePath": "staticwebassets\\teacherCertificates\\23dd8dd4-376c-4867-8f10-f0900c86491e.jpg"
     },
@@ -381,8 +389,16 @@
       "PackagePath": "staticwebassets\\teacherCertificates\\4ddd41ec-63d6-4366-a96f-7b03a64018db.png"
     },
     {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\54ca4751-360c-4942-9300-dcf061e33aac_畢業專題獎狀.jpg",
+      "PackagePath": "staticwebassets\\teacherCertificates\\54ca4751-360c-4942-9300-dcf061e33aac_畢業專題獎狀.jpg"
+    },
+    {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\6efabaae-4bd1-42cc-a3cb-5e366e67f847_LINE_ALBUM_照片_250123_1.jpg",
       "PackagePath": "staticwebassets\\teacherCertificates\\6efabaae-4bd1-42cc-a3cb-5e366e67f847_LINE_ALBUM_照片_250123_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\712087ab-853c-44a5-85ef-739054482826_實習證明.jpg",
+      "PackagePath": "staticwebassets\\teacherCertificates\\712087ab-853c-44a5-85ef-739054482826_實習證明.jpg"
     },
     {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\85f7bb90-7cc7-4ca8-8ac6-2278c30369a1_LINE_ALBUM_照片_250123_1.jpg",
@@ -403,6 +419,10 @@
     {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\cdbd2fb8-81e0-4a1a-a350-43cda9a0041b_獎狀2.jpg",
       "PackagePath": "staticwebassets\\teacherCertificates\\cdbd2fb8-81e0-4a1a-a350-43cda9a0041b_獎狀2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\fc856274-9f20-421b-8055-d5b41e173053_獎狀4.jpg",
+      "PackagePath": "staticwebassets\\teacherCertificates\\fc856274-9f20-421b-8055-d5b41e173053_獎狀4.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ReadingReviewSystem1207.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

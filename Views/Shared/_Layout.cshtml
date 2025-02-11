@@ -23,10 +23,28 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav me-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">首頁</a>
-                        </li>
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            var user = await UserManager.GetUserAsync(User);
+                            var role = user?.Role ?? "Guest";  // 預設為 Guest
+
+                            // 只有「學生」和「訪客」可以看到首頁按鈕
+                            if (role == "Student" || role == "Guest")
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">首頁</a>
+                                </li>
+                            }
+                        }
+                        else
+                        {
+                            // 未登入者也能看到首頁按鈕
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">首頁</a>
+                            </li>
+                        }
                     </ul>
+
 
                     @using Microsoft.AspNetCore.Identity
                     @inject SignInManager<ApplicationUser> SignInManager
@@ -36,53 +54,55 @@
                         @if (SignInManager.IsSignedIn(User))
                         {
                             var user = await UserManager.GetUserAsync(User);
-                            var role = user?.Role ?? "Guest";  // 預設為 Guest
-                            var roleDisplay = "";
-                            var icon = "";
 
-                            switch (role)
+                            // 檢查 user 是否為 null
+                            if (user != null)
                             {
-                                case "Student":
-                                    icon = "🎓";
-                                    roleDisplay = "同學";
-                                    break;
-                                case "Teacher":
-                                    icon = "🏫";
-                                    roleDisplay = "老師";
-                                    break;
-                                case "Admin":
-                                    icon = "🛡";
-                                    roleDisplay = "管理員";
-                                    break;
-                                default:
-                                    icon = "👤";
-                                    roleDisplay = "";
-                                    break;
-                            }
+                                var role = user?.Role ?? "Guest";  // 預設為 Guest
+                                var roleDisplay = "";
+                                var icon = "";
 
-                            <li class="nav-item d-flex align-items-center">
-                                <span class="nav-link">
-                                    @icon <strong>歡迎，@user.Name@roleDisplay</strong>
-                                </span>
-                            </li>
-                            <li class="nav-item">
-                                <form asp-action="Logout" asp-controller="Account" method="post" class="d-inline">
-                                    <button type="submit" class="btn btn-danger btn-sm">登出</button>
-                                </form>
-                            </li>
+                                switch (role)
+                                {
+                                    case "Student":
+                                        icon = "🎓";
+                                        roleDisplay = "同學";
+                                        break;
+                                    case "Teacher":
+                                        icon = "🏫";
+                                        roleDisplay = "老師";
+                                        break;
+                                    case "Admin":
+                                        icon = "🛡";
+                                        roleDisplay = "管理員";
+                                        break;
+                                    default:
+                                        icon = "👤";
+                                        roleDisplay = "";
+                                        break;
+                                }
+
+                                <li class="nav-item d-flex align-items-center">
+                                    <span class="nav-link">
+                                        @icon <strong>歡迎，@user.Name @roleDisplay</strong>
+                                    </span>
+                                </li>
+                                <li class="nav-item">
+                                    <form asp-action="Logout" asp-controller="Account" method="post" class="d-inline">
+                                        <button type="submit" class="btn btn-danger btn-sm">登出</button>
+                                    </form>
+                                </li>
+                            }
+                            else
+                            {
+                                // 如果 user 為 null，顯示預設訊息或跳轉到登入頁
+                                <li class="nav-item">
+                                    <span class="nav-link">用戶資料無法加載</span>
+                                </li>
+                            }
+                        
                         }
-                        else
-                        {
-                            <!--
-                            <li class="nav-item">
-                                <a class="btn btn-outline-primary btn-sm me-2" asp-action="Login" asp-controller="Account">
-                                    <i class="fas fa-sign-in-alt"></i> 登入
-                                </a>
-                                <a class="btn btn-primary btn-sm" asp-action="Register" asp-controller="Account">
-                                    <i class="fas fa-user-plus"></i> 註冊
-                                </a>
-                            </li>-->
-                        }
+                        
                     </ul>
                 </div>
             </div>
