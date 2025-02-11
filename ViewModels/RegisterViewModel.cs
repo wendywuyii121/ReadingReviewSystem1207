@@ -20,6 +20,7 @@ namespace ReadingReviewSystem1207.ViewModels
         public string ConfirmPassword { get; set; } = string.Empty;
 
         // 學號（選填）
+        [Required(ErrorMessage = "學生註冊時必須填寫學號")]
         public string? StudentId { get; set; }
 
         // 申請教師身份（勾選）
@@ -29,6 +30,9 @@ namespace ReadingReviewSystem1207.ViewModels
         public IFormFile? TeacherCertificate { get; set; } = null;
 
         // 管理員代碼（僅管理員使用，註冊頁面可以選擇不填）
+        [Required(ErrorMessage = "管理員註冊時需要輸入管理員代碼")]
         public string? AdminCode { get; set; }
+
+        public string? TeacherCertificateUrl { get; set; } = null;
     }
 }

@@ -3,36 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:views\\books\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,8 +19,48 @@
       "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\views\\admin\\pendingteachers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:views\\admin\\pendingteachers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\views\\admin\\approvedteachers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:views\\admin\\approvedteachers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:views\\books\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|solutionrelative:controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83943E2E-3E2A-4F0B-A902-6BC035340ED7}|ReadingReviewSystem1207.csproj|c:\\users\\user\\source\\repos\\readingreviewsystem1207\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -78,7 +94,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -86,32 +102,143 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Books\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Books\\Details.cshtml",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Books\\Details.cshtml",
-              "RelativeToolTip": "Views\\Books\\Details.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-10T09:04:11.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
               "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAmwEMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T05:54:46.197Z"
+              "WhenOpened": "2025-02-08T05:54:46.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T07:02:32.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PendingTeachers.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Admin\\PendingTeachers.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\PendingTeachers.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Admin\\PendingTeachers.cshtml",
+              "RelativeToolTip": "Views\\Admin\\PendingTeachers.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-10T15:44:14.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T05:59:47.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-08T06:20:49.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA7wCkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T15:31:14.07Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T12:19:35.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApprovedTeachers.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Admin\\ApprovedTeachers.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\ApprovedTeachers.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Admin\\ApprovedTeachers.cshtml",
+              "RelativeToolTip": "Views\\Admin\\ApprovedTeachers.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-10T15:44:50.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-10T15:59:04.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAcwEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T15:19:16.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAEAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-02T12:14:08.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -123,32 +250,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Books\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Books\\Details.cshtml",
+              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Books\\Details.cshtml",
+              "RelativeToolTip": "Views\\Books\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-02T12:19:35.59Z"
+              "WhenOpened": "2025-02-10T09:04:11.47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Books\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Books\\Create.cshtml",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Books\\Create.cshtml",
-              "RelativeToolTip": "Views\\Books\\Create.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAmwBMAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-08T06:21:13.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "BooksController.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Controllers\\BooksController.cs",
               "RelativeDocumentMoniker": "Controllers\\BooksController.cs",
@@ -156,12 +270,11 @@
               "RelativeToolTip": "Controllers\\BooksController.cs",
               "ViewState": "AgIAAMwAAAAAAAAAAAAmwN4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T12:05:53.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-02T12:05:53.038Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Models\\Book.cs",
               "RelativeDocumentMoniker": "Models\\Book.cs",
@@ -169,60 +282,11 @@
               "RelativeToolTip": "Models\\Book.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAYwBcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T14:13:46.27Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-02T14:13:46.27Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAADgAAAAAAAAAAAAmwEoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-08T06:20:49.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Models\\ApplicationUser.cs",
-              "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Models\\ApplicationUser.cs",
-              "RelativeToolTip": "Models\\ApplicationUser.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAcwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T05:59:47.903Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RegisterViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\ViewModels\\RegisterViewModel.cs",
-              "RelativeDocumentMoniker": "ViewModels\\RegisterViewModel.cs",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\ViewModels\\RegisterViewModel.cs",
-              "RelativeToolTip": "ViewModels\\RegisterViewModel.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAcwCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T07:02:32.715Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADAAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-02T12:14:08.643Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -234,7 +298,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Books\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Books\\Edit.cshtml",
@@ -246,7 +310,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "20250202145656_AddNullableOwnerIdToBooks.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Migrations\\20250202145656_AddNullableOwnerIdToBooks.cs",
               "RelativeDocumentMoniker": "Migrations\\20250202145656_AddNullableOwnerIdToBooks.cs",
@@ -258,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "UserRoleDisplayViewComponent.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Shared\\Components\\UserRoleDisplayViewComponent.cs",
               "RelativeDocumentMoniker": "Views\\Shared\\Components\\UserRoleDisplayViewComponent.cs",
@@ -270,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Default.cshtml",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\Views\\Shared\\Components\\UserRoleDisplay\\Default.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Components\\UserRoleDisplay\\Default.cshtml",
@@ -282,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\ViewModels\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "ViewModels\\LoginViewModel.cs",

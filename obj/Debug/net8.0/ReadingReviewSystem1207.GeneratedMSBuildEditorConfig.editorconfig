@@ -28,6 +28,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/USER/source/repos/ReadingReviewSystem1207/Views/Admin/ApprovedTeachers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQXBwcm92ZWRUZWFjaGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/source/repos/ReadingReviewSystem1207/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/source/repos/ReadingReviewSystem1207/Views/Admin/PendingTeachers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cUGVuZGluZ1RlYWNoZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/USER/source/repos/ReadingReviewSystem1207/Views/Books/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va3NcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

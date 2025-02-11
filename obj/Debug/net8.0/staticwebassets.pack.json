@@ -109,6 +109,10 @@
       "PackagePath": "staticwebassets\\images\\螢幕擷取畫面 2025-02-02 180415.png"
     },
     {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\螢幕擷取畫面 2025-02-02 191239.png",
+      "PackagePath": "staticwebassets\\images\\螢幕擷取畫面 2025-02-02 191239.png"
+    },
+    {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -345,12 +349,24 @@
       "PackagePath": "staticwebassets\\teacherCertificates\\0a28b67b-beef-46ef-930f-c2b2418bdcae_LINE_ALBUM_照片_250123_1.jpg"
     },
     {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\23dd8dd4-376c-4867-8f10-f0900c86491e.jpg",
+      "PackagePath": "staticwebassets\\teacherCertificates\\23dd8dd4-376c-4867-8f10-f0900c86491e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\4ddd41ec-63d6-4366-a96f-7b03a64018db.png",
+      "PackagePath": "staticwebassets\\teacherCertificates\\4ddd41ec-63d6-4366-a96f-7b03a64018db.png"
+    },
+    {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\6efabaae-4bd1-42cc-a3cb-5e366e67f847_LINE_ALBUM_照片_250123_1.jpg",
       "PackagePath": "staticwebassets\\teacherCertificates\\6efabaae-4bd1-42cc-a3cb-5e366e67f847_LINE_ALBUM_照片_250123_1.jpg"
     },
     {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\85f7bb90-7cc7-4ca8-8ac6-2278c30369a1_LINE_ALBUM_照片_250123_1.jpg",
       "PackagePath": "staticwebassets\\teacherCertificates\\85f7bb90-7cc7-4ca8-8ac6-2278c30369a1_LINE_ALBUM_照片_250123_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\960f143d-72c2-4398-9d35-0a5f424912b3.jpg",
+      "PackagePath": "staticwebassets\\teacherCertificates\\960f143d-72c2-4398-9d35-0a5f424912b3.jpg"
     },
     {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\teacherCertificates\\ae9f832c-e67d-451a-950b-ce7e257e6498_LINE_ALBUM_照片_250123_1.jpg",

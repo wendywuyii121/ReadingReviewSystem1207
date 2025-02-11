@@ -24,6 +24,7 @@ wwwroot\images\test_file.txt
 wwwroot\images\螢幕擷取畫面 2025-02-02 160001.png
 wwwroot\images\螢幕擷取畫面 2025-02-02 171509.png
 wwwroot\images\螢幕擷取畫面 2025-02-02 180415.png
+wwwroot\images\螢幕擷取畫面 2025-02-02 191239.png
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
@@ -83,8 +84,11 @@ wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
 wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
 wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
 wwwroot\teacherCertificates\0a28b67b-beef-46ef-930f-c2b2418bdcae_LINE_ALBUM_照片_250123_1.jpg
+wwwroot\teacherCertificates\23dd8dd4-376c-4867-8f10-f0900c86491e.jpg
+wwwroot\teacherCertificates\4ddd41ec-63d6-4366-a96f-7b03a64018db.png
 wwwroot\teacherCertificates\6efabaae-4bd1-42cc-a3cb-5e366e67f847_LINE_ALBUM_照片_250123_1.jpg
 wwwroot\teacherCertificates\85f7bb90-7cc7-4ca8-8ac6-2278c30369a1_LINE_ALBUM_照片_250123_1.jpg
+wwwroot\teacherCertificates\960f143d-72c2-4398-9d35-0a5f424912b3.jpg
 wwwroot\teacherCertificates\ae9f832c-e67d-451a-950b-ce7e257e6498_LINE_ALBUM_照片_250123_1.jpg
 wwwroot\teacherCertificates\aeac0b6c-c550-4360-892f-7cb744a6f684_icdl.jpg
 wwwroot\teacherCertificates\cdbd2fb8-81e0-4a1a-a350-43cda9a0041b_獎狀2.jpg
