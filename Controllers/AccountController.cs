@@ -4,8 +4,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using ReadingReviewSystem1207.Models;
 using ReadingReviewSystem1207.ViewModels;
-using System.IO;
-using System.Threading.Tasks;
+using System.IO; // 確保加入 System.IO
 
 namespace ReadingReviewSystem1207.Controllers
 {
@@ -13,16 +12,11 @@ namespace ReadingReviewSystem1207.Controllers
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
-        private readonly RoleManager<IdentityRole> _roleManager;
 
-        public AccountController(
-            UserManager<ApplicationUser> userManager,
-            SignInManager<ApplicationUser> signInManager,
-            RoleManager<IdentityRole> roleManager)
+        public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
-            _roleManager = roleManager;
         }
 
         // 註冊 GET
@@ -35,11 +29,12 @@ namespace ReadingReviewSystem1207.Controllers
         // 註冊 POST
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Register(RegisterViewModel model, IFormFile TeacherCertificate)
+        public async Task<IActionResult> Register(RegisterViewModel model)
         {
             if (!ModelState.IsValid)
                 return View(model);
 
+            // ➡️ 新增：宣告 assignedRole 與 assignedStatus 變數
             string assignedRole;
             string assignedStatus;
 
@@ -57,77 +52,55 @@ namespace ReadingReviewSystem1207.Controllers
             {
                 assignedRole = "Student";
                 assignedStatus = "Approved";
-                //❌ 原有檢查：學生註冊時必填學號，現已移除
-                // if (string.IsNullOrWhiteSpace(model.StudentId))
-                // {
-                //     ModelState.AddModelError("StudentId", "學生註冊時必須填寫學號");
-                //     return View(model);
-                // }
             }
+
+            // ★ 修改：新增教師證上傳邏輯，僅對 Teacher 角色進行
+            string teacherCertificatePath = null;
+            if (assignedRole == "Teacher" && model.TeacherCertificate != null && model.TeacherCertificate.Length > 0)
+            {
+                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "teacherCertificates");
+                Directory.CreateDirectory(uploadsFolder); // 確保目錄存在
+
+                string uniqueFileName = Guid.NewGuid().ToString() + "_" + model.TeacherCertificate.FileName;
+                string filePath = Path.Combine(uploadsFolder, uniqueFileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await model.TeacherCertificate.CopyToAsync(stream);
+                }
+
+                teacherCertificatePath = "/teacherCertificates/" + uniqueFileName; // 儲存相對路徑
+            }
+            // ★ 修改結束
 
             var user = new ApplicationUser
             {
                 UserName = model.Email,
                 Email = model.Email,
                 Name = model.Name,
-                StudentId = model.StudentId, // 學生代號現在為選填
+                StudentId = model.StudentId,
                 Role = assignedRole,
                 Status = assignedStatus,
-                TeacherCertificateUrl = null  // 確保初始化為 null
+                TeacherCertificateUrl = teacherCertificatePath // ★ 修改：確保教師證路徑存入資料庫
             };
-
-            // 若為管理員，設定管理員驗證標記 (需在 ApplicationUser 中定義 IsAdminVerified 屬性)
-            if (assignedRole == "Admin")
-            {
-                user.IsAdminVerified = true;
-            }
-
-            // 處理教師證上傳（僅在教師註冊且有上傳檔案時）
-            if (model.IsTeacher && TeacherCertificate != null && TeacherCertificate.Length > 0)
-            {
-                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "teacherCertificates");
-                if (!Directory.Exists(uploadsFolder))
-                {
-                    Directory.CreateDirectory(uploadsFolder);
-                }
-
-                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(TeacherCertificate.FileName);
-                var filePath = Path.Combine(uploadsFolder, fileName);
-
-                using (var stream = new FileStream(filePath, FileMode.Create))
-                {
-                    await TeacherCertificate.CopyToAsync(stream);
-                }
-
-                //➡️ 確保存入正確的 URL
-                user.TeacherCertificateUrl = "/teacherCertificates/" + fileName;
-            }
 
             var result = await _userManager.CreateAsync(user, model.Password);
             if (result.Succeeded)
             {
-                // 確保角色存在
-                if (!await _roleManager.RoleExistsAsync(assignedRole))
-                {
-                    await _roleManager.CreateAsync(new IdentityRole(assignedRole));
-                }
-
-                await _userManager.AddToRoleAsync(user, assignedRole);
-
                 if (assignedRole == "Teacher")
                 {
                     TempData["Message"] = "您的教師身份註冊成功，請等待管理員審核。";
-                    return RedirectToAction("Login", "Account");
+                    return RedirectToAction("Login", "Account"); // 跳轉到登入頁面
                 }
                 else if (assignedRole == "Admin")
                 {
                     await _signInManager.SignInAsync(user, isPersistent: false);
-                    return RedirectToAction("Index", "Admin");
+                    return RedirectToAction("Index", "Admin"); // 管理員註冊成功後跳轉至 /Admin/Index
                 }
                 else
                 {
                     await _signInManager.SignInAsync(user, isPersistent: false);
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("Index", "Home"); // 學生註冊成功後跳轉至首頁
                 }
             }
 
@@ -169,6 +142,7 @@ namespace ReadingReviewSystem1207.Controllers
 
             await _signInManager.SignInAsync(user, isPersistent: model.RememberMe);
 
+            // 新增：判斷如果使用者是管理員則跳轉到 /Admin/Index
             if (user.Role == "Admin")
             {
                 return RedirectToAction("Index", "Admin");

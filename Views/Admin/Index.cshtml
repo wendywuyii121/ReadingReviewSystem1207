@@ -1,0 +1,11 @@
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<h1>管理員控制台</h1>
+<p>請選擇要管理的教師類別：</p>
+
+<div class="mt-4">
+    <a asp-controller="Admin" asp-action="PendingTeachers" class="btn btn-warning">待審核教師</a>
+    <a asp-controller="Admin" asp-action="ApprovedTeachers" class="btn btn-success">已批准教師</a>
+</div>

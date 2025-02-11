@@ -44,48 +44,31 @@
         <span asp-validation-for="StudentId" class="text-danger"></span>
     </div>
 
-    <!-- 申請教師身份 -->
+    <!-- 申請教師身份 
     <div class="form-group">
         <label>申請教師身份？</label>
-        <input type="checkbox" asp-for="IsTeacher" id="IsTeacherCheckbox" />
+        <input type="checkbox" asp-for="IsTeacher" />
+    </div>-->
+
+    <!-- 教師證上傳（僅在勾選教師時出現） -->
+    <div class="form-group">
+        <label asp-for="TeacherCertificate">如要申請教師身分請上傳教師證/工作證:</label>
+        <input asp-for="TeacherCertificate" class="form-control" type="file" />
+        <span asp-validation-for="TeacherCertificate" class="text-danger"></span>
     </div>
 
-    <!-- 教師證上傳（僅在勾選教師時顯示） -->
-    <div class="form-group" id="TeacherCertificateField" style="display: none;">
-        <label for="TeacherCertificate">請上傳教師證：</label>
-        <input type="file" class="form-control" name="TeacherCertificate" id="TeacherCertificate" />
-    </div>
-
-    <!-- 管理員代碼（僅當「非教師」時顯示） -->
-    <div class="form-group" id="AdminCodeField">
-        <label asp-for="AdminCode">管理員代碼（僅管理員填寫）:</label>
+    <!-- 管理員代碼（選填） 
+    <div class="form-group">
+        <label asp-for="AdminCode">管理員代碼:</label>
         <input asp-for="AdminCode" class="form-control" />
         <span asp-validation-for="AdminCode" class="text-danger"></span>
-    </div>
+    </div>-->
 
     <button type="submit" class="btn btn-primary">註冊</button>
 </form>
 
 @section Scripts {
-    @await Html.PartialAsync("_ValidationScriptsPartial")
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            var isTeacherCheckbox = document.getElementById("IsTeacherCheckbox");
-            var teacherCertificateField = document.getElementById("TeacherCertificateField");
-            var adminCodeField = document.getElementById("AdminCodeField");
-
-            function toggleFields() {
-                if (isTeacherCheckbox.checked) {
-                    teacherCertificateField.style.display = "block";
-                    adminCodeField.style.display = "none"; // 如果是教師，不顯示管理員代碼
-                } else {
-                    teacherCertificateField.style.display = "none";
-                    adminCodeField.style.display = "block"; // 只有學生和管理員顯示管理員代碼
-                }
-            }
-
-            isTeacherCheckbox.addEventListener("change", toggleFields);
-            toggleFields();
-        });
-    </script>
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

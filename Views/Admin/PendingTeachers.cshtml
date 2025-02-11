@@ -1,0 +1,46 @@
+﻿@model IEnumerable<ApplicationUser>
+
+<h2>待審核教師</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>姓名</th>
+            <th>Email</th>
+            <th>教師證</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var teacher in Model)
+        {
+            <tr>
+                <td>@teacher.Name</td>
+                <td>@teacher.Email</td>
+                <td>
+                    @if (!string.IsNullOrEmpty(teacher.TeacherCertificateUrl))
+                    {
+                        <a href="@teacher.TeacherCertificateUrl" target="_blank" class="btn btn-info">查看教師證</a>
+                    }
+                    else
+                    {
+                        <span class="text-muted">未上傳</span>
+                    }
+                </td>
+                <td>
+                    <form asp-controller="Admin" asp-action="ApproveTeacher" method="post">
+                        <input type="hidden" name="userId" value="@teacher.Id" />
+                        <button type="submit" class="btn btn-success">批准</button>
+                    </form>
+
+                    <form asp-controller="Admin" asp-action="RejectTeacher" method="post">
+                        <input type="hidden" name="userId" value="@teacher.Id" />
+                        <button type="submit" class="btn btn-danger">拒絕</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-controller="Admin" asp-action="Index" class="btn btn-secondary">返回管理首頁</a>

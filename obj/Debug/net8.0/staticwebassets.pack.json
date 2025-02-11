@@ -93,8 +93,28 @@
       "PackagePath": "staticwebassets\\images\\getImage.jpg"
     },
     {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\reading.png",
+      "PackagePath": "staticwebassets\\images\\reading.png"
+    },
+    {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\test_file.txt",
       "PackagePath": "staticwebassets\\images\\test_file.txt"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\下載 (1).jpg",
+      "PackagePath": "staticwebassets\\images\\下載 (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\下載 (3).jpg",
+      "PackagePath": "staticwebassets\\images\\下載 (3).jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\下載.jpg",
+      "PackagePath": "staticwebassets\\images\\下載.jpg"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\圖片5.png",
+      "PackagePath": "staticwebassets\\images\\圖片5.png"
     },
     {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\螢幕擷取畫面 2025-02-02 160001.png",
@@ -111,6 +131,10 @@
     {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\螢幕擷取畫面 2025-02-02 191239.png",
       "PackagePath": "staticwebassets\\images\\螢幕擷取畫面 2025-02-02 191239.png"
+    },
+    {
+      "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\images\\螢幕擷取畫面 2025-02-11 173553.png",
+      "PackagePath": "staticwebassets\\images\\螢幕擷取畫面 2025-02-11 173553.png"
     },
     {
       "Id": "C:\\Users\\USER\\source\\repos\\ReadingReviewSystem1207\\wwwroot\\js\\site.js",

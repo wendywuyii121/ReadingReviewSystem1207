@@ -1,0 +1,24 @@
+﻿@model IEnumerable<ApplicationUser>
+
+<h2>已批准教師</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>姓名</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var teacher in Model)
+        {
+            <tr>
+                <td>@teacher.Name</td>
+                <td>@teacher.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+<a asp-controller="Admin" asp-action="Index" class="btn btn-secondary">返回管理首頁</a>
