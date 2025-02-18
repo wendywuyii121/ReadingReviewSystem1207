@@ -30,5 +30,11 @@ namespace ReadingReviewSystem1207.ViewModels
 
         // 管理員代碼（僅管理員使用，註冊頁面可以選擇不填）
         public string? AdminCode { get; set; }
+
+        // 新增：學生所需填寫的班級
+        public string? Class { get; set; }
+
+        // 新增：學生所需填寫的老師
+        public string? Teacher { get; set; }
     }
 }

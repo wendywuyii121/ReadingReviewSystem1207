@@ -18,12 +18,12 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
 // 新增：放寬 Identity 密碼政策
 builder.Services.Configure<IdentityOptions>(options =>
 {
-     options.Password.RequireDigit = false;
-     options.Password.RequiredLength = 4;
-     options.Password.RequireNonAlphanumeric = false;
-     options.Password.RequireUppercase = false;
-     options.Password.RequireLowercase = false;
- });
+    options.Password.RequireDigit = false;
+    options.Password.RequiredLength = 4;
+    options.Password.RequireNonAlphanumeric = false;
+    options.Password.RequireUppercase = false;
+    options.Password.RequireLowercase = false;
+});
 
 builder.Services.AddControllersWithViews();
 
@@ -54,6 +54,9 @@ else
 {
     app.UseDeveloperExceptionPage();
 }
+
+// 檢查管理員是否存在//0215新增
+
 
 // 啟用 Cookie 設定
 app.UseCookiePolicy();

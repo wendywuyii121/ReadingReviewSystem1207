@@ -44,6 +44,21 @@
         <span asp-validation-for="StudentId" class="text-danger"></span>
     </div>
 
+    <!-- 新增：班級輸入欄位 -->
+    <div class="form-group">
+        <label asp-for="Class"></label>
+        <input asp-for="Class" class="form-control" />
+        <span asp-validation-for="Class" class="text-danger"></span>
+    </div>
+
+    <!-- 新增：老師輸入欄位 -->
+    <div class="form-group">
+        <label asp-for="Teacher"></label>
+        <input asp-for="Teacher" class="form-control" />
+        <span asp-validation-for="Teacher" class="text-danger"></span>
+    </div>
+
+
     <!-- 申請教師身份 -->
     <div class="form-group">
         <label>申請教師身份？</label>

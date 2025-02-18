@@ -163,6 +163,9 @@ namespace ReadingReviewSystem1207.Migrations
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
 
+                    b.Property<string>("Class")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
                         .HasColumnType("nvarchar(max)");
@@ -213,6 +216,9 @@ namespace ReadingReviewSystem1207.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("StudentId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Teacher")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TeacherCertificateUrl")

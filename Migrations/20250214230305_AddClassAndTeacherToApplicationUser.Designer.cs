@@ -12,8 +12,8 @@ using ReadingReviewSystem1207.Data;
 namespace ReadingReviewSystem1207.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250208052459_UpdateAspNetUsers")]
-    partial class UpdateAspNetUsers
+    [Migration("20250214230305_AddClassAndTeacherToApplicationUser")]
+    partial class AddClassAndTeacherToApplicationUser
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -166,7 +166,7 @@ namespace ReadingReviewSystem1207.Migrations
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
 
-                    b.Property<string>("ClassName")
+                    b.Property<string>("Class")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConcurrencyStamp")
@@ -219,6 +219,9 @@ namespace ReadingReviewSystem1207.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("StudentId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Teacher")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("TeacherCertificateUrl")

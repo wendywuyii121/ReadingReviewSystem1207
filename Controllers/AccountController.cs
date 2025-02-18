@@ -34,11 +34,13 @@ namespace ReadingReviewSystem1207.Controllers
             if (!ModelState.IsValid)
                 return View(model);
 
-            // ➡️ 新增：宣告 assignedRole 與 assignedStatus 變數
+            // 新增：宣告 assignedRole 與 assignedStatus 變數
             string assignedRole;
             string assignedStatus;
 
-            if (!string.IsNullOrEmpty(model.AdminCode) && model.AdminCode == "410149")
+            // 新增管理員代號驗證
+            const string adminCode = "410149"; // 可存入環境變數以提高安全性
+            if (!string.IsNullOrEmpty(model.AdminCode) && model.AdminCode == adminCode)
             {
                 assignedRole = "Admin";
                 assignedStatus = "Approved";
@@ -54,7 +56,7 @@ namespace ReadingReviewSystem1207.Controllers
                 assignedStatus = "Approved";
             }
 
-            // ★ 修改：新增教師證上傳邏輯，僅對 Teacher 角色進行
+            // 修改：新增教師證上傳邏輯，僅對 Teacher 角色進行
             string teacherCertificatePath = null;
             if (assignedRole == "Teacher" && model.TeacherCertificate != null && model.TeacherCertificate.Length > 0)
             {
@@ -71,7 +73,7 @@ namespace ReadingReviewSystem1207.Controllers
 
                 teacherCertificatePath = "/teacherCertificates/" + uniqueFileName; // 儲存相對路徑
             }
-            // ★ 修改結束
+            // 修改結束
 
             var user = new ApplicationUser
             {
@@ -81,12 +83,15 @@ namespace ReadingReviewSystem1207.Controllers
                 StudentId = model.StudentId,
                 Role = assignedRole,
                 Status = assignedStatus,
-                TeacherCertificateUrl = teacherCertificatePath // ★ 修改：確保教師證路徑存入資料庫
+                TeacherCertificateUrl = teacherCertificatePath, // ★ 修改：確保教師證路徑存入資料庫
+                Class = model.Class,     // 新增：儲存班級資訊
+                Teacher = model.Teacher  // 新增：儲存老師資訊
             };
 
             var result = await _userManager.CreateAsync(user, model.Password);
             if (result.Succeeded)
             {
+                await _userManager.AddToRoleAsync(user, assignedRole);
                 if (assignedRole == "Teacher")
                 {
                     TempData["Message"] = "您的教師身份註冊成功，請等待管理員審核。";
@@ -134,7 +139,7 @@ namespace ReadingReviewSystem1207.Controllers
                 return View(model);
             }
 
-            // ✅ 確保管理員、學生、教師的登入條件正確
+            // 確保管理員、學生、教師的登入條件正確
             if (user.Role == "Teacher")
             {
                 if (user.Status == "Pending")
@@ -151,16 +156,16 @@ namespace ReadingReviewSystem1207.Controllers
 
             await _signInManager.SignInAsync(user, isPersistent: model.RememberMe);
 
-            // ✅ 根據身份跳轉
+            // 根據身份跳轉
             if (user.Role == "Admin")
             {
                 return RedirectToAction("Index", "Admin"); // 管理員跳轉到管理頁面
             }
-            else if (user.Role == "Teacher" && user.Status == "Approved") // ✅ 只有 Approved 的教師才能進入
+            else if (user.Role == "Teacher" && user.Status == "Approved") // 只有 Approved 的教師才能進入
             {
                 return RedirectToAction("Index", "Teacher"); // 教師跳轉到教師儀表板
             }
-            else if (user.Role == "Student") // ✅ 學生正常登入
+            else if (user.Role == "Student") // 學生正常登入
             {
                 return RedirectToAction("Index", "Home"); // 學生跳轉到首頁
             }

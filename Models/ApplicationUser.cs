@@ -19,6 +19,15 @@ namespace ReadingReviewSystem1207.Models
         // 新增：選填的學號
         public string? StudentId { get; set; }
 
+        /// <summary>
+        /// 學生班級（若該使用者為學生時需要填寫）
+        public string? Class { get; set; }
+
+        /// <summary>
+        /// 學生所屬老師（若該使用者為學生時需要填寫）
+        /// </summary>
+        public string? Teacher { get; set; }
+
         // 新增：選填，教師證上傳檔案路徑
         public string? TeacherCertificateUrl { get; set; }
     }

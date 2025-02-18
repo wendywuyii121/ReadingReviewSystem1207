@@ -12,8 +12,8 @@ using ReadingReviewSystem1207.Data;
 namespace ReadingReviewSystem1207.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250210140356_CleanUp")]
-    partial class CleanUp
+    [Migration("20250214210901_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
