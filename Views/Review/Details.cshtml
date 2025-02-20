@@ -1,0 +1,9 @@
+﻿@model ReadingReviewSystem1207.Models.Entities.Review
+
+<h2>@Model.Title</h2>
+<p><strong>學生：</strong> @Model.Student.Name</p>
+<p><strong>心得內容：</strong></p>
+<p>@Model.Content</p>
+<p><strong>發表時間：</strong> @Model.CreatedDate.ToString("yyyy/MM/dd HH:mm")</p>
+
+<a asp-action="Index" class="btn btn-secondary">返回列表</a>

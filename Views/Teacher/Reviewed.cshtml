@@ -1,0 +1,19 @@
+﻿@model IEnumerable<Review>
+<h2>待評分心得</h2>
+<table>
+    <tr>
+        <th>標題</th>
+        <th>學生</th>
+        <th>日期</th>
+        <th>操作</th>
+    </tr>
+    @foreach (var review in Model)
+    {
+        <tr>
+            <td>@review.Title</td>
+            <td>@review.Student.Name</td>
+            <td>@review.CreatedDate.ToShortDateString()</td>
+            <td><a href="/Review/Details/@review.ReviewId">查看</a></td>
+        </tr>
+    }
+</table>

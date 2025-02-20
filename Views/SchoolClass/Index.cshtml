@@ -1,0 +1,24 @@
+﻿@using ReadingReviewSystem1207.Models.Entities
+@model IEnumerable<ReadingReviewSystem1207.Models.Entities.SchoolClass>
+
+
+<h2>您的班級</h2>
+<a asp-action="Create" class="btn btn-primary">新增班級</a>
+<table class="table">
+    <table>
+        <thead>
+            <tr>
+                <th>班級名稱</th>
+                <th>科目</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var schoolClass in Model)
+            {
+                <tr>
+                    <td>@schoolClass.ClassName</td>
+                    <td>@schoolClass.Subject</td>
+                </tr>
+            }
+        </tbody>
+    </table>

@@ -46,15 +46,15 @@
 
     <!-- 新增：班級輸入欄位 -->
     <div class="form-group">
-        <label asp-for="Class"></label>
+        <label asp-for="Class">班級:</label>
         <input asp-for="Class" class="form-control" />
         <span asp-validation-for="Class" class="text-danger"></span>
     </div>
 
-    <!-- 新增：老師輸入欄位 -->
+    <!-- 修改：老師輸入欄位 改為輸入教師Email -->
     <div class="form-group">
-        <label asp-for="Teacher"></label>
-        <input asp-for="Teacher" class="form-control" />
+        <label asp-for="Teacher">任課教師Email:</label>
+        <input asp-for="Teacher" class="form-control" placeholder="請輸入任課教師Email" />
         <span asp-validation-for="Teacher" class="text-danger"></span>
     </div>
 

@@ -34,11 +34,11 @@ namespace ReadingReviewSystem1207.Controllers
             if (!ModelState.IsValid)
                 return View(model);
 
-            // 新增：宣告 assignedRole 與 assignedStatus 變數
+            // 宣告 assignedRole 與 assignedStatus 變數
             string assignedRole;
             string assignedStatus;
-
-            // 新增管理員代號驗證
+           
+            // 管理員代號驗證
             const string adminCode = "410149"; // 可存入環境變數以提高安全性
             if (!string.IsNullOrEmpty(model.AdminCode) && model.AdminCode == adminCode)
             {
@@ -56,7 +56,18 @@ namespace ReadingReviewSystem1207.Controllers
                 assignedStatus = "Approved";
             }
 
-            // 修改：新增教師證上傳邏輯，僅對 Teacher 角色進行
+            ApplicationUser teacherUser = null;
+            if (assignedRole == "Student")
+            {
+                teacherUser = await _userManager.FindByEmailAsync(model.Teacher);
+                if (teacherUser == null || teacherUser.Role != "Teacher")
+                {
+                    ModelState.AddModelError("Teacher", "找不到該教師，請確認輸入正確的教師Email。");
+                    return View(model);
+                }
+            }
+
+            // 教師證上傳邏輯，僅對 Teacher 角色進行
             string teacherCertificatePath = null;
             if (assignedRole == "Teacher" && model.TeacherCertificate != null && model.TeacherCertificate.Length > 0)
             {
@@ -73,8 +84,7 @@ namespace ReadingReviewSystem1207.Controllers
 
                 teacherCertificatePath = "/teacherCertificates/" + uniqueFileName; // 儲存相對路徑
             }
-            // 修改結束
-
+           
             var user = new ApplicationUser
             {
                 UserName = model.Email,
@@ -83,9 +93,9 @@ namespace ReadingReviewSystem1207.Controllers
                 StudentId = model.StudentId,
                 Role = assignedRole,
                 Status = assignedStatus,
-                TeacherCertificateUrl = teacherCertificatePath, // ★ 修改：確保教師證路徑存入資料庫
-                Class = model.Class,     // 新增：儲存班級資訊
-                Teacher = model.Teacher  // 新增：儲存老師資訊
+                TeacherCertificateUrl = teacherCertificatePath, // 確保教師證路徑存入資料庫
+                Class = model.Class,     // 儲存班級資訊
+                Teacher = (assignedRole == "Student") ? teacherUser.Email : model.Teacher//// 學生綁定教師資訊
             };
 
             var result = await _userManager.CreateAsync(user, model.Password);

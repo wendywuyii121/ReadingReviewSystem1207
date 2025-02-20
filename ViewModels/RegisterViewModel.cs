@@ -34,7 +34,8 @@ namespace ReadingReviewSystem1207.ViewModels
         // 新增：學生所需填寫的班級
         public string? Class { get; set; }
 
-        // 新增：學生所需填寫的老師
+        // 新增：學生所需填寫的老師EMAIL
+        [Required, EmailAddress]
         public string? Teacher { get; set; }
     }
 }

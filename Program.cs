@@ -6,8 +6,12 @@ using ReadingReviewSystem1207.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 設定 ApplicationDbContext
+// 設定 ApplicationDbContext (用於 Identity)
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// 設定 AppDbContext (用於其他資料表，例如 Class、Review)
+builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // 設定 Identity
@@ -15,7 +19,7 @@ builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>()
     .AddDefaultTokenProviders();
 
-// 新增：放寬 Identity 密碼政策
+// 放寬 Identity 密碼政策
 builder.Services.Configure<IdentityOptions>(options =>
 {
     options.Password.RequireDigit = false;
@@ -27,7 +31,7 @@ builder.Services.Configure<IdentityOptions>(options =>
 
 builder.Services.AddControllersWithViews();
 
-// 允許開發環境的 Cookie 在 HTTP 下傳輸
+//  允許開發環境的 Cookie 在 HTTP 下傳輸
 if (builder.Environment.IsDevelopment())
 {
     builder.Services.Configure<CookiePolicyOptions>(options =>
@@ -45,6 +49,7 @@ if (builder.Environment.IsDevelopment())
 
 var app = builder.Build();
 
+// 設定開發與正式環境的錯誤處理
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -54,9 +59,6 @@ else
 {
     app.UseDeveloperExceptionPage();
 }
-
-// 檢查管理員是否存在//0215新增
-
 
 // 啟用 Cookie 設定
 app.UseCookiePolicy();

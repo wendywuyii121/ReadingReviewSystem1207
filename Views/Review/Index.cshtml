@@ -1,0 +1,27 @@
+﻿@using ReadingReviewSystem1207.Models.Entities
+@model IEnumerable<Review>
+
+
+<h2>學生心得</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>學生</th>
+            <th>標題</th>
+            <th>日期</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var review in Model)
+        {
+            <tr>
+                <td>@review.Student.Name</td>
+                <td>@review.Title</td>
+                <td>@review.CreatedDate.ToString("yyyy/MM/dd")</td>
+                <td><a asp-action="Details" asp-route-id="@review.Id">查看</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
