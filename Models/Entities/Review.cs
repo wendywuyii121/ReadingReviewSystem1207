@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using ReadingReviewSystem1207.Models.Entities;
 
 namespace ReadingReviewSystem1207.Models.Entities
 {
@@ -19,5 +20,7 @@ namespace ReadingReviewSystem1207.Models.Entities
         public int StudentId { get; set; }
 
         public Student Student { get; set; } = null!;
+
+        public bool IsReviewed { get; set; } = false;
     }
 }

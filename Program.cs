@@ -70,7 +70,13 @@ app.UseAuthorization();
 
 // 設定路由
 app.MapControllerRoute(
+    name: "teacher",
+    pattern: "Teacher/{action=Index}",
+    defaults: new { controller = "Teacher", action = "Index" });
+
+// 修改預設路由，讓 `/` 回到 Home，而不是 Books
+app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Books}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
