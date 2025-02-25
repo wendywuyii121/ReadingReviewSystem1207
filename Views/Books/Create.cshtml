@@ -1,4 +1,6 @@
-﻿<form asp-controller="Books" asp-action="Create" method="post" enctype="multipart/form-data" class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+﻿@model ReadingReviewSystem1207.Models.Entities.Review
+
+<form asp-controller="Review" asp-action="Create" method="post" enctype="multipart/form-data" class="container d-flex justify-content-center align-items-center" style="min-height: 80vh;">
     @Html.AntiForgeryToken()
 
     <div class="card p-4 shadow-lg" style="width: 500px;">
@@ -9,15 +11,17 @@
             <label for="Title" class="form-label fw-bold">
                 <i class="fas fa-book"></i> 書名：
             </label>
-            <input type="text" id="Title" name="Title" class="form-control rounded" placeholder="請輸入書名" required />
+            <input asp-for="Title" class="form-control rounded" placeholder="請輸入書名" required />
+            <span asp-validation-for="Title" class="text-danger"></span>
         </div>
 
         <!-- 心得內容 -->
         <div class="mb-3">
-            <label for="Review" class="form-label fw-bold">
+            <label for="Content" class="form-label fw-bold">
                 <i class="fas fa-pen"></i> 心得內容：
             </label>
-            <textarea id="Review" name="Review" class="form-control rounded" rows="20" style="min-height: 200px;" placeholder="寫下你的閱讀心得..." required></textarea>
+            <textarea asp-for="Content" class="form-control rounded" rows="20" style="min-height: 200px;" placeholder="寫下你的閱讀心得..." required></textarea>
+            <span asp-validation-for="Content" class="text-danger"></span>
         </div>
 
         <!-- 封面圖片 -->
@@ -26,6 +30,16 @@
                 <i class="fas fa-image"></i> 封面圖片：
             </label>
             <input type="file" id="CoverImage" name="coverImage" class="form-control rounded" />
+        </div>
+
+        <!-- 選擇教師 -->
+        <div class="form-group">
+            <label for="TeacherId">選擇教師</label>
+            <select asp-for="TeacherId" class="form-control"
+                    asp-items="@(ViewBag.TeacherList as List<SelectListItem> ?? new List<SelectListItem>())">
+                <option value="">-- 請選擇教師 --</option>
+            </select>
+            <span asp-validation-for="TeacherId" class="text-danger"></span>
         </div>
 
         <!-- 提交按鈕 -->

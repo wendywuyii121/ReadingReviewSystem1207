@@ -1,4 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.AspNetCore.Identity;
 using ReadingReviewSystem1207.Models.Entities;
 
 namespace ReadingReviewSystem1207.Models.Entities
@@ -14,12 +17,17 @@ namespace ReadingReviewSystem1207.Models.Entities
         [Required]
         public string Content { get; set; } = string.Empty;
 
-        public DateTime CreatedDate { get; set; } = DateTime.Now;
+        public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
 
         [Required]
-        public int StudentId { get; set; }
+        public string StudentId { get; set; } // 學生 ID
+        [ForeignKey("StudentId")]
+        public ApplicationUser Student { get; set; } // 關聯學生
 
-        public Student Student { get; set; } = null!;
+        [Required]
+        public string TeacherId { get; set; } // 教師 ID
+        [ForeignKey("TeacherId")]
+        public ApplicationUser Teacher { get; set; } // 關聯教師
 
         public bool IsReviewed { get; set; } = false;
     }

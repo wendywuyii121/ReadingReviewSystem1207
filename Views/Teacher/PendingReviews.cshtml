@@ -1,5 +1,23 @@
-﻿@{
-    ViewData["Title"] = "待評分心得";
-}
-<h2>待評分心得</h2>
-<p>這裡顯示所有學生的未評分心得。</p>
+﻿@model IEnumerable<ReadingReviewSystem1207.Models.Entities.Review>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>書名</th>
+            <th>學生</th>
+            <th>創建時間</th>
+            <th>狀態</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var review in Model)
+        {
+            <tr>
+                <td>@review.Title</td>
+                <td>@review.Student.UserName</td>
+                <td>@review.CreatedDate.ToShortDateString()</td>
+                <td>@(review.IsReviewed ? "已審核" : "待審核")</td>
+            </tr>
+        }
+    </tbody>
+</table>
